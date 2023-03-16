@@ -1,0 +1,215 @@
+
+2023-02-08 11:56:52,547 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-08 11:56:53,842 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-08 11:56:54,351 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-08 11:56:54,353 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-08 11:56:54,353 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-08 11:56:54,354 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-08 11:56:54,356 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-08 11:56:54,520 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 11:56:54,528 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 11:56:54,643 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 11:56:54,646 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 11:56:54,646 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 11:56:54,647 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 11:56:55,427 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 11:56:56,418 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 11:56:56,459 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-08 11:58:06,720 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55109]] Connected
+2023-02-08 11:58:06,784 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 11:58:06,946 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-08 11:58:41,966 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20, 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserSerevice.Recv_Login(NetConnection`1 client, UserLoginRequest request) 位置 D:\JSJ_MMORPG\SelfProject\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 60
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\JSJ_MMORPG\SelfProject\Src\Lib\Common\Network\MessageDistributer.cs:行号 103
+2023-02-08 11:58:48,824 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-08 11:59:58,595 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-08 12:00:00,196 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-08 12:00:00,487 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-08 12:00:00,490 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-08 12:00:00,490 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-08 12:00:00,490 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-08 12:00:00,493 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-08 12:00:00,588 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 12:00:00,588 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 12:00:00,588 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 12:00:00,588 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 12:00:00,590 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 12:00:00,591 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 12:00:01,536 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 12:00:02,536 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-08 12:00:02,557 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-08 12:00:09,587 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55171]] Connected
+2023-02-08 12:00:09,657 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 12:00:09,827 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-08 12:00:29,229 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 12:00:29,232 [5] [INFO ] [GameServer] ：Recv_Register: User:1 Pass:1 
+2023-02-08 12:00:31,243 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 12:00:31,244 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-08 12:00:35,449 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-02-08 12:00:35,453 [5] [INFO ] [GameServer] ：Recv_CreateCharacter: name:123 clase:123 
+2023-02-08 12:00:37,209 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-08 12:00:37,211 [6] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-08 12:00:37,216 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 12:00:37,224 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-08 12:00:37,225 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 12:00:38,018 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:38,023 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-08 12:00:38,344 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:38,344 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5108,4000,820),dir:(98,18,0),spd:300
+2023-02-08 12:00:38,527 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:38,528 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5144,4006,820),dir:(93,37,0),spd:300
+2023-02-08 12:00:38,587 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:38,591 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5180,4018,820),dir:(83,55,0),spd:300
+2023-02-08 12:00:38,682 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:38,683 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5205,4033,820),dir:(72,69,0),spd:300
+2023-02-08 12:00:38,817 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:38,817 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5229,4057,820),dir:(56,83,0),spd:300
+2023-02-08 12:00:38,939 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:38,939 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5247,4087,820),dir:(38,93,0),spd:300
+2023-02-08 12:00:39,057 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:39,057 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5259,4123,820),dir:(18,98,0),spd:300
+2023-02-08 12:00:39,145 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 12:00:39,146 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5264,4153,820),dir:(1,100,0),spd:300
+2023-02-08 12:00:39,254 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-08 12:00:39,255 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5264,4183,820),dir:(-17,99,0),spd:300
+2023-02-08 12:00:39,385 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-08 12:00:39,386 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5258,4219,820),dir:(-37,93,0),spd:300
+2023-02-08 12:00:39,508 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-08 12:00:39,508 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5246,4255,820),dir:(-55,83,0),spd:300
+2023-02-08 12:00:41,467 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-08 12:00:41,467 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(4949,4750,820),dir:(-55,83,0),spd:0
+2023-02-08 12:00:44,026 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2023-02-08 12:00:44,033 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4949,4750,820),dir:(-55,83,0),spd:300
+2023-02-08 12:00:44,385 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-08 12:00:44,385 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(4880,4865,820),dir:(-70,71,0),spd:300
+2023-02-08 12:00:44,530 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-08 12:00:44,531 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(4852,4893,820),dir:(-83,55,0),spd:300
+2023-02-08 12:00:44,651 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-08 12:00:44,652 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(4822,4911,820),dir:(-92,40,0),spd:300
+2023-02-08 12:00:45,245 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-08 12:00:45,246 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(4642,4971,820),dir:(-92,40,0),spd:0
+2023-02-08 12:00:50,407 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-08 12:00:50,409 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-08 12:00:50,410 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-08 12:00:50,411 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-08 14:40:24,989 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52742]] Connected
+2023-02-08 14:40:25,057 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 14:40:25,060 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-08 14:40:27,919 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-08 14:40:27,920 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-08 14:40:27,920 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:40:27,921 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-08 14:40:27,921 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:40:39,768 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-08 14:40:39,769 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-08 14:40:39,770 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-08 14:40:39,770 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-08 14:42:19,305 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52907]] Connected
+2023-02-08 14:42:19,375 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 14:42:19,375 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-08 14:42:20,788 [53] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-08 14:42:20,788 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-08 14:42:20,789 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:42:20,789 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-08 14:42:20,789 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:42:21,704 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 14:42:21,705 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:3 Evt:MoveFwd Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-08 14:42:22,090 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 14:42:22,091 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:3 Evt:None Entity:(3:pos:(5120,4000,820),dir:(98,18,0),spd:300
+2023-02-08 14:42:22,180 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-08 14:42:22,182 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:3 Evt:Idle Entity:(3:pos:(5144,4004,820),dir:(98,18,0),spd:0
+2023-02-08 14:42:46,474 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-08 14:42:46,477 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-08 14:42:46,477 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-08 14:42:46,478 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-08 14:44:11,861 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53086]] Connected
+2023-02-08 14:44:11,941 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 14:44:11,942 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-08 14:44:14,093 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-08 14:44:14,094 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-08 14:44:14,094 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:44:14,095 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-08 14:44:14,095 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:46:45,681 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-08 14:46:45,681 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-08 14:46:45,681 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-08 14:46:45,682 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-08 14:47:12,790 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53348]] Connected
+2023-02-08 14:47:12,866 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 14:47:12,867 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-08 14:47:14,400 [44] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-08 14:47:14,400 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-08 14:47:14,401 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:47:14,402 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-08 14:47:14,403 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:47:20,293 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-08 14:47:20,293 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-08 14:47:20,294 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-08 14:47:20,294 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-08 14:48:05,657 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53422]] Connected
+2023-02-08 14:48:05,729 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-08 14:48:05,730 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-08 14:48:07,166 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-08 14:48:07,166 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-08 14:48:07,167 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:48:07,167 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-08 14:48:07,167 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-08 14:48:08,489 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-08 14:48:08,490 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5000,4000,820),dir:(98,20,0),spd:0
+2023-02-08 14:48:08,608 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-08 14:48:08,609 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5000,4000,820),dir:(92,39,0),spd:0
+2023-02-08 14:48:08,694 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-08 14:48:08,696 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5000,4000,820),dir:(84,55,0),spd:0
+2023-02-08 14:48:08,831 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-08 14:48:08,831 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5000,4000,820),dir:(70,71,0),spd:0
+2023-02-08 14:48:08,935 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-08 14:48:08,935 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5000,4000,820),dir:(54,84,0),spd:0
+2023-02-08 14:48:09,058 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-08 14:48:09,059 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5000,4000,820),dir:(36,93,0),spd:0
+2023-02-08 14:48:09,172 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-08 14:48:09,173 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:MoveFwd Entity:(6:pos:(5000,4000,820),dir:(19,98,0),spd:300
+2023-02-08 14:48:09,221 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-08 14:48:09,222 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5000,4000,820),dir:(19,98,0),spd:300
+2023-02-08 14:48:09,267 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-08 14:48:09,267 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5006,4036,820),dir:(-1,100,0),spd:300
+2023-02-08 14:48:09,499 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-08 14:48:09,499 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(5006,4102,820),dir:(-19,98,0),spd:300
+2023-02-08 14:48:10,408 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-08 14:48:10,409 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:Idle Entity:(6:pos:(4961,4372,820),dir:(-19,98,0),spd:0
+2023-02-08 14:48:10,576 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-08 14:48:10,576 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(4961,4372,820),dir:(-38,93,0),spd:0
+2023-02-08 14:48:10,698 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-08 14:48:10,699 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(4961,4372,820),dir:(-55,83,0),spd:0
+2023-02-08 14:48:10,846 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-08 14:48:10,847 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:6 Evt:None Entity:(6:pos:(4961,4372,820),dir:(-70,71,0),spd:0
+2023-02-08 14:48:15,315 [41] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-08 14:48:15,315 [41] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-08 14:48:15,316 [41] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-08 14:48:15,316 [41] [WARN ] [GameServer] ：Client[] Disconnected

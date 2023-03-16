@@ -1,0 +1,154 @@
+
+2023-03-06 11:19:05,541 [1] [INFO ] [GameServer] ：Game Server Init
+2023-03-06 11:19:06,485 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-03-06 11:19:07,261 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-03-06 11:19:07,264 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-03-06 11:19:07,264 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-03-06 11:19:07,264 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-03-06 11:20:39,351 [1] [INFO ] [GameServer] ：Game Server Init
+2023-03-06 11:20:39,447 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-03-06 11:20:39,685 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-03-06 11:20:39,687 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-03-06 11:20:39,688 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-03-06 11:20:39,688 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-03-06 11:20:40,408 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-03-06 11:20:40,505 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:20:40,506 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:20:40,507 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:20:40,533 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:20:40,549 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:20:40,567 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:20:41,923 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:20:42,923 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:20:42,974 [1] [WARN ] [GameServer] ：NetService Started
+2023-03-06 11:20:45,597 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56252]] Connected
+2023-03-06 11:20:45,689 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-03-06 11:20:45,831 [6] [INFO ] [GameServer] ：Recv_Login: User:3 Pass:3 
+2023-03-06 11:21:13,174 [5] [INFO ] [GameServer] ：Map:2 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-03-06 11:21:13,178 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:1
+2023-03-06 11:21:13,178 [5] [INFO ] [GameServer] ：Map:2 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-03-06 11:21:13,178 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:2
+2023-03-06 11:21:13,178 [5] [INFO ] [GameServer] ：Map:2 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-03-06 11:21:13,179 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:3
+2023-03-06 11:21:13,179 [5] [INFO ] [GameServer] ：Map:2 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-03-06 11:21:13,179 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:4
+2023-03-06 11:21:13,179 [5] [INFO ] [GameServer] ：Map:3 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-03-06 11:21:13,179 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:5
+2023-03-06 11:21:13,179 [5] [INFO ] [GameServer] ：Map:3 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-03-06 11:21:13,180 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:6
+2023-03-06 11:21:13,181 [5] [INFO ] [GameServer] ：Map:3 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-03-06 11:21:13,181 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:7
+2023-03-06 11:21:13,181 [5] [INFO ] [GameServer] ：Map:3 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-03-06 11:21:13,183 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:8
+2023-03-06 11:21:27,272 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-03-06 11:21:53,714 [1] [INFO ] [GameServer] ：Game Server Init
+2023-03-06 11:21:53,809 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-03-06 11:21:54,066 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-03-06 11:21:54,069 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-03-06 11:21:54,069 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-03-06 11:21:54,069 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-03-06 11:21:54,699 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-03-06 11:21:54,711 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:21:54,716 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:21:54,719 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:21:54,730 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:21:54,739 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:21:54,805 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:21:55,704 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:21:56,703 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:21:56,721 [1] [WARN ] [GameServer] ：NetService Started
+2023-03-06 11:22:49,932 [1] [INFO ] [GameServer] ：Game Server Init
+2023-03-06 11:22:50,023 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-03-06 11:22:50,344 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-03-06 11:22:50,347 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-03-06 11:22:50,347 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-03-06 11:22:50,347 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-03-06 11:22:51,638 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-03-06 11:22:51,694 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:22:51,694 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:22:51,696 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:22:51,698 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:22:51,698 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:22:51,702 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:22:52,675 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:22:53,675 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:22:53,753 [1] [WARN ] [GameServer] ：NetService Started
+2023-03-06 11:23:15,727 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56385]] Connected
+2023-03-06 11:23:15,797 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-03-06 11:23:21,030 [6] [INFO ] [GameServer] ：Recv_Login: User:3 Pass:3 
+2023-03-06 11:23:23,946 [5] [INFO ] [GameServer] ：Map:2 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-03-06 11:23:23,950 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:1
+2023-03-06 11:23:23,950 [5] [INFO ] [GameServer] ：Map:2 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-03-06 11:23:23,950 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:2
+2023-03-06 11:23:23,950 [5] [INFO ] [GameServer] ：Map:2 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-03-06 11:23:23,951 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:3
+2023-03-06 11:23:23,951 [5] [INFO ] [GameServer] ：Map:2 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-03-06 11:23:23,951 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:4
+2023-03-06 11:23:23,951 [5] [INFO ] [GameServer] ：Map:3 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-03-06 11:23:23,951 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:5
+2023-03-06 11:23:23,951 [5] [INFO ] [GameServer] ：Map:3 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-03-06 11:23:23,952 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:6
+2023-03-06 11:23:23,952 [5] [INFO ] [GameServer] ：Map:3 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-03-06 11:23:23,953 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:7
+2023-03-06 11:23:23,953 [5] [INFO ] [GameServer] ：Map:3 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-03-06 11:23:23,953 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:8
+2023-03-06 11:23:23,991 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-03-06 11:23:52,956 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56408]] Connected
+2023-03-06 11:23:53,027 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-03-06 11:23:53,027 [6] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-03-06 11:26:46,165 [1] [INFO ] [GameServer] ：Game Server Init
+2023-03-06 11:26:46,248 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-03-06 11:26:46,537 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-03-06 11:26:46,540 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-03-06 11:26:46,540 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-03-06 11:26:46,540 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-03-06 11:26:47,353 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-03-06 11:26:47,845 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:26:47,845 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:26:47,854 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:26:47,854 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:26:47,855 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:26:47,861 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:26:49,482 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:26:50,483 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-03-06 11:26:50,564 [1] [WARN ] [GameServer] ：NetService Started
+2023-03-06 11:27:11,884 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56629]] Connected
+2023-03-06 11:27:11,954 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-03-06 11:27:12,078 [6] [INFO ] [GameServer] ：Recv_Login: User:3 Pass:3 
+2023-03-06 11:27:13,703 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-03-06 11:27:20,753 [5] [INFO ] [GameServer] ：Map:2 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-03-06 11:27:20,758 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:1
+2023-03-06 11:27:20,758 [5] [INFO ] [GameServer] ：Map:2 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-03-06 11:27:20,759 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:2
+2023-03-06 11:27:20,759 [5] [INFO ] [GameServer] ：Map:2 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-03-06 11:27:20,759 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:3
+2023-03-06 11:27:20,759 [5] [INFO ] [GameServer] ：Map:2 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-03-06 11:27:20,759 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:4
+2023-03-06 11:27:20,759 [5] [INFO ] [GameServer] ：Map:3 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-03-06 11:27:20,760 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:5
+2023-03-06 11:27:20,760 [5] [INFO ] [GameServer] ：Map:3 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-03-06 11:27:20,761 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:6
+2023-03-06 11:27:20,761 [5] [INFO ] [GameServer] ：Map:3 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-03-06 11:27:20,762 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:7
+2023-03-06 11:27:20,762 [5] [INFO ] [GameServer] ：Map:3 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-03-06 11:27:20,764 [5] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:8
+2023-03-06 11:27:44,322 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56656]] Connected
+2023-03-06 11:27:44,400 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-03-06 11:27:44,401 [6] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-03-06 11:27:47,459 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-03-06 11:28:12,547 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56678]] Connected
+2023-03-06 11:28:12,614 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-03-06 11:28:12,615 [6] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-03-06 11:28:14,278 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-03-06 11:28:35,486 [15] [WARN ] [GameServer] ：Client[127.0.0.1:56699]] Connected
+2023-03-06 11:28:35,550 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-03-06 11:28:35,550 [6] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-03-06 11:28:38,295 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-03-06 11:29:00,184 [15] [WARN ] [GameServer] ：Client[127.0.0.1:56718]] Connected
+2023-03-06 11:29:00,256 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-03-06 11:29:00,258 [6] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-03-06 11:29:03,330 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-03-06 11:29:03,330 [6] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-03-06 11:29:10,499 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-03-06 11:29:10,499 [7] [INFO ] [GameServer] ：Recv_Login: User:rt Pass:rt 
+2023-03-06 11:29:16,183 [15] [WARN ] [GameServer] ：Client[] Disconnected

@@ -1,0 +1,67 @@
+
+2023-02-15 19:24:27,069 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-15 19:24:28,405 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-15 19:24:28,957 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-15 19:24:28,960 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-15 19:24:28,960 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-15 19:24:28,960 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-15 19:24:28,962 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-15 19:24:29,236 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:24:29,236 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:24:29,238 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:24:29,237 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:24:29,239 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:24:29,240 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:24:29,760 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:24:30,763 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:24:30,774 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-15 19:25:00,908 [6] [INFO ] [GameServer] ：Map:2 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-02-15 19:25:44,699 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-15 19:25:46,227 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-15 19:25:46,549 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-15 19:25:46,552 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-15 19:25:46,553 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-15 19:25:46,553 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-15 19:25:46,557 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-15 19:25:46,627 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:25:46,627 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:25:46,627 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:25:46,627 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:25:46,627 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:25:46,629 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:25:47,597 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:25:48,598 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:25:48,615 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-15 19:26:18,800 [4] [INFO ] [GameServer] ：Map:2 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-02-15 19:26:47,320 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-15 19:26:49,022 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-15 19:26:49,311 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-15 19:26:49,313 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-15 19:26:49,314 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-15 19:26:49,314 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-15 19:26:49,316 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-15 19:26:49,403 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:26:49,404 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:26:49,404 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:26:49,404 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:26:49,404 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:26:49,405 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:26:50,360 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:26:51,357 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-15 19:26:51,411 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-15 19:27:21,611 [4] [INFO ] [GameServer] ：Map:2 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-02-15 19:27:21,615 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:1
+2023-02-15 19:27:21,618 [4] [INFO ] [GameServer] ：Map:2 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-02-15 19:27:21,618 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:2
+2023-02-15 19:27:21,618 [4] [INFO ] [GameServer] ：Map:2 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-02-15 19:27:21,618 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:3
+2023-02-15 19:27:21,618 [4] [INFO ] [GameServer] ：Map:2 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-02-15 19:27:21,619 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:4
+2023-02-15 19:27:21,619 [4] [INFO ] [GameServer] ：Map:3 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-02-15 19:27:21,619 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:5
+2023-02-15 19:27:21,619 [4] [INFO ] [GameServer] ：Map:3 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-02-15 19:27:21,619 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:6
+2023-02-15 19:27:21,619 [4] [INFO ] [GameServer] ：Map:3 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-02-15 19:27:21,620 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:7
+2023-02-15 19:27:21,620 [4] [INFO ] [GameServer] ：Map:3 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-02-15 19:27:21,620 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:8

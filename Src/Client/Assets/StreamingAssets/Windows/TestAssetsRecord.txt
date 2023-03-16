@@ -1,0 +1,4 @@
+3
+Minimap testassets/minimap.assetbundle
+Prefabs testassets/prefabs.assetbundle
+UIElement testassets/uielement.assetbundle

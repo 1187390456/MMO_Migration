@@ -1,0 +1,161 @@
+ManifestFileVersion: 0
+CRC: 464555035
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4a9050746f2450967436b03b40fff9ca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0521d3a2d97c42bd81cf3b74781a2c6d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a98125502f715b4b83cfb77b434e436, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c0f7149ca80578a4a9a81757371483b3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae989efd3ee3f1e48b4442398c8cf302, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d7540170d9759404b9440615611d4efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1c00362b74fb6ec4083d4a715d02eab0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e1e97fc44aa779f47892ab735f0b47f8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3b562b303c58cf74b826304c904a79f9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25d3d1136063b284e806034ae20a6afd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2858c5d3d92fecd4f88a476f0a7b39fd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9eb956e537a87a247b955459bcc90513, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 830ffe0a8f240de428f6ab634ac46e1f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b867d0aa28dd5f4996a485706f68bb1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 533be185f86617549aa1d6851aa5d3fe, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a03d9e628c1017a439cb7a89eab422af, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90bf6628029517e43a130e058724e00d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2caef369b2af147409d624203beb285a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ded281726bb2c1e46a7bceb936a9bc1f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e227134e70cf91940bebf35c55fc6e2f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 146de321cba572546bd2ecb358363c51, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5e453c4731eb34f4ea40b42c7d1f9ed7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8039ba67a93837a4fa460eccb6cf9481, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f0e00011d3227fc4a9695d1a20252846, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b1c5ed50c08a20041a9fc6477d0c7b0b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b07b51d30667a644a871c2e5e7668ffa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c9497c7a781f2b4598308fe0e40b4ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2af0bda06124aea42aee6930b2817b6c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/EndEditEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/OnChangeEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/SubmitEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+Assets:
+- Assets/AssetBundles/TestAssets/UIElement/UIQuest.prefab
+- Assets/AssetBundles/TestAssets/UIElement/Guild/UIGuildItem.prefab
+- Assets/AssetBundles/TestAssets/UIElement/UIBag.prefab
+- Assets/AssetBundles/TestAssets/UIElement/Guild/UIGuildMemberItem.prefab
+- Assets/AssetBundles/TestAssets/UIElement/UITeam.prefab
+- Assets/AssetBundles/TestAssets/UIElement/UIShop.prefab
+- Assets/AssetBundles/TestAssets/UIElement/Guild/UIGuild.prefab
+- Assets/AssetBundles/TestAssets/UIElement/Guild/UIGuildPopNoGuild.prefab
+- Assets/AssetBundles/TestAssets/UIElement/UICharEquip.prefab
+- Assets/AssetBundles/TestAssets/UIElement/UIFriends.prefab
+- Assets/AssetBundles/TestAssets/UIElement/Guild/UIGuildList.prefab
+- Assets/AssetBundles/TestAssets/UIElement/Guild/UIGuildApplyItem.prefab
+- Assets/AssetBundles/TestAssets/UIElement/Guild/UIGuildPopCreate.prefab
+- Assets/AssetBundles/TestAssets/UIElement/UIQuestDialong.prefab
+- Assets/AssetBundles/TestAssets/UIElement/Guild/UIGuildApplyList.prefab
+Dependencies: []

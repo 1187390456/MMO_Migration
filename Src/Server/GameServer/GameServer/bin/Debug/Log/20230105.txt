@@ -1,0 +1,207 @@
+
+2023-01-05 15:22:07,713 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 15:22:08,554 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 15:22:08,646 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:22:08,942 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:22:08,943 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:22:08,967 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:22:08,986 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:22:08,987 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:22:14,295 [4] [WARN ] [GameServer] £ºClient[127.0.0.1:49196]] Connected
+2023-01-05 15:22:14,551 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 15:22:15,296 [13] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:22:18,784 [14] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:22:18,866 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 15:22:20,496 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 15:22:24,235 [4] [WARN ] [GameServer] £ºClient[127.0.0.1:49215]] Connected
+2023-01-05 15:22:24,332 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 15:22:24,334 [7] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 15:22:35,849 [4] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 15:22:35,850 [4] [WARN ] [GameServer] £ºClient[127.0.0.1:49235]] Connected
+2023-01-05 15:22:35,855 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 15:22:35,859 [7] [INFO ] [GameServer] £ºUserRegisterRequest: User:123 Pass:123 
+2023-01-05 15:22:42,394 [4] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 15:52:34,535 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 15:52:34,740 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 15:52:34,748 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:52:34,767 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:52:34,772 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:52:34,773 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:52:34,798 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:52:34,798 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:52:36,247 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:52:37,246 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:52:37,309 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 15:52:46,196 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:57801]] Connected
+2023-01-05 15:52:46,289 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 15:52:46,399 [5] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 15:52:54,726 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 15:52:54,728 [14] [WARN ] [GameServer] £ºClient[127.0.0.1:57818]] Connected
+2023-01-05 15:52:54,732 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 15:52:54,734 [5] [INFO ] [GameServer] £ºUserRegisterRequest: User:123 Pass:123 
+2023-01-05 15:53:00,602 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 15:55:17,594 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 15:55:17,712 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 15:55:17,741 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:55:17,742 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:55:17,774 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:55:17,774 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:55:17,779 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:55:17,800 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:55:20,240 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:55:21,240 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 15:55:21,318 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 15:55:28,490 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:49905]] Connected
+2023-01-05 15:55:28,582 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 15:55:28,690 [5] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 15:55:37,829 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 15:55:37,833 [14] [WARN ] [GameServer] £ºClient[127.0.0.1:49922]] Connected
+2023-01-05 15:55:37,844 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2023-01-05 15:55:37,848 [5] [INFO ] [GameServer] £ºUserRegisterRequest: User:123 Pass:123 
+2023-01-05 15:55:43,356 [14] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:04:15,896 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 16:04:16,376 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 16:04:16,430 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:04:16,458 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:04:16,590 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:04:16,632 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:04:16,635 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:04:16,635 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:04:17,960 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:04:18,475 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:04:18,556 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 16:04:20,100 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:50738]] Connected
+2023-01-05 16:04:20,209 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 16:04:20,318 [5] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 16:04:29,752 [14] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:04:29,753 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:50752]] Connected
+2023-01-05 16:04:29,758 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:24
+2023-01-05 16:04:29,760 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123123 Pass:123123 
+2023-01-05 16:04:49,930 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:07:30,217 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 16:07:30,323 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 16:07:30,388 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:07:30,388 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:07:30,388 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:07:30,388 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:07:30,389 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:07:30,390 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:07:32,826 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:07:33,827 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:07:33,906 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 16:07:39,543 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:51045]] Connected
+2023-01-05 16:07:39,645 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 16:07:39,749 [5] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 16:07:44,548 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:07:44,551 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:51054]] Connected
+2023-01-05 16:07:44,556 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 16:07:44,559 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:07:49,370 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:24
+2023-01-05 16:07:49,370 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:123123 Pass:123123 
+2023-01-05 16:07:57,485 [14] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:08:15,978 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 16:08:16,127 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 16:08:16,196 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:08:16,196 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:08:16,196 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:08:16,245 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:08:16,297 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:08:16,401 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:08:17,638 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:08:18,637 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:08:18,726 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 16:08:20,869 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:51109]] Connected
+2023-01-05 16:08:21,002 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 16:08:21,115 [5] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 16:08:29,296 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:09:11,554 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 16:09:11,720 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 16:09:11,734 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:09:11,734 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:09:11,735 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:09:11,735 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:09:11,739 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:09:11,762 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:09:13,726 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:09:14,730 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:09:14,754 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 16:09:18,382 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:51214]] Connected
+2023-01-05 16:09:18,480 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 16:09:18,582 [5] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 16:09:24,088 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:09:24,090 [14] [WARN ] [GameServer] £ºClient[127.0.0.1:51223]] Connected
+2023-01-05 16:09:24,094 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 16:09:24,097 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:09:35,211 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 16:09:35,211 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:09:40,907 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2023-01-05 16:09:40,907 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:41241 Pass:41241 
+2023-01-05 16:09:50,871 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 16:09:50,872 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:41241 Pass:41241 
+2023-01-05 16:09:56,608 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:19
+2023-01-05 16:09:56,608 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:10:03,080 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 16:10:03,081 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:11:15,828 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2023-01-05 16:11:15,831 [5] [INFO ] [GameServer] £ºUserRegisterRequest: User:6666 Pass:6666 
+2023-01-05 16:11:20,235 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2023-01-05 16:11:20,240 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:6666 Pass:6666 
+2023-01-05 16:13:29,003 [13] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:13:36,379 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 16:13:36,551 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 16:13:36,688 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:13:36,688 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:13:36,688 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:13:36,697 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:13:36,699 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:13:36,706 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:13:39,556 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:13:41,057 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:13:41,137 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 16:13:42,124 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:56849]] Connected
+2023-01-05 16:13:42,216 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 16:13:42,324 [5] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 16:13:49,647 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:56863]] Connected
+2023-01-05 16:13:49,647 [13] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:13:49,651 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 16:13:49,654 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:13:51,937 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 16:13:51,937 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:13:53,089 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2023-01-05 16:13:53,090 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:13:55,115 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 16:13:55,116 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:123 Pass:123 
+2023-01-05 16:13:57,020 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:22
+2023-01-05 16:13:57,020 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:3123 Pass:3123 
+2023-01-05 16:14:02,092 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2023-01-05 16:14:02,094 [6] [INFO ] [GameServer] £ºUserRegisterRequest: User:6666 Pass:6666 
+2023-01-05 16:14:10,866 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:22
+2023-01-05 16:14:10,871 [5] [INFO ] [GameServer] £ºUserRegisterRequest: User:123123 Pass:6666 
+2023-01-05 16:14:18,147 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:19
+2023-01-05 16:14:18,148 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123123 Pass:123123 
+2023-01-05 16:14:20,060 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:15
+2023-01-05 16:14:20,061 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:12 Pass:12 
+2023-01-05 16:14:24,411 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:22
+2023-01-05 16:14:24,412 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123123 Pass:123123 
+2023-01-05 16:14:34,260 [13] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:16:56,710 [1] [INFO ] [GameServer] £ºGame Server Init
+2023-01-05 16:16:56,844 [1] [WARN ] [GameServer] £ºStarting Listener...
+2023-01-05 16:16:56,888 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:16:56,890 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:16:56,890 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:16:56,892 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:16:56,893 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:16:56,913 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:16:59,349 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:17:00,348 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2023-01-05 16:17:00,448 [1] [WARN ] [GameServer] £ºNetService Started
+2023-01-05 16:17:04,076 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:57168]] Connected
+2023-01-05 16:17:04,171 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:21
+2023-01-05 16:17:04,272 [5] [INFO ] [GameServer] £ºOnFirstTestRequest:Hello world
+2023-01-05 16:17:11,093 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2023-01-05 16:17:11,094 [14] [WARN ] [GameServer] £ºClient[127.0.0.1:57182]] Connected
+2023-01-05 16:17:11,099 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:24
+2023-01-05 16:17:11,101 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:123123 Pass:123123 
+2023-01-05 16:17:18,519 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:22
+2023-01-05 16:17:18,520 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:123123 Pass:123123 
+2023-01-05 16:17:20,168 [14] [WARN ] [GameServer] £ºClient[] Disconnected
