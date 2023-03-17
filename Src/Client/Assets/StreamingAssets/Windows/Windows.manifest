@@ -1,16 +1,11 @@
 ManifestFileVersion: 0
-CRC: 3108908675
+CRC: 803062930
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: uis/uilogin.assetbundle
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: ttf.assetbundle
     Info_1:
-      Name: testassets/minimap.assetbundle
-      Dependencies: {}
-    Info_2:
-      Name: testassets/prefabs.assetbundle
-      Dependencies: {}
-    Info_3:
-      Name: testassets/uielement.assetbundle
+      Name: ttf.assetbundle
       Dependencies: {}

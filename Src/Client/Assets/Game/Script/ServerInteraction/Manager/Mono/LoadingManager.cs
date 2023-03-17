@@ -4,12 +4,12 @@ using Services;
 using System;
 using System.Collections;
 using System.IO;
-using System.Runtime.ConstrainedExecution;
 using System.Security.Cryptography;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+using XLua;
 using Random = UnityEngine.Random;
 
 namespace Manager
@@ -39,11 +39,6 @@ namespace Manager
 
     public class LoadingManager : MonoSingleton<LoadingManager>
     {
-        public GameObject UITips;
-        public GameObject UILoading;
-        public GameObject UILogin;
-
-        public GameObject DefaultBg;
         public GameObject BackGround;
         public Transform BackGroundURL;
 
@@ -57,6 +52,7 @@ namespace Manager
 
         // 资源部分
 
+        private bool allAssetDone = false;
         private string downLoadPath;
         private bool needUpdate = false;
 
@@ -64,22 +60,27 @@ namespace Manager
 
         private Func<int, int, bool, IEnumerator> downLoadCallBack; // 单个资源下载回调 或 资源变化回调(未更新跳过)
         private Action downLoadAssetDone; // 资源更新完毕
+        private LuaFunction lpCallBack;
 
         private void Awake()
         {
+            StartCoroutine(InitLoginAsset()); // 加载登录相关的资源
+
             downLoadPath = PathUtil.GetAssetBundleOutPath();
 
             downLoadCallBack = AssetDownAnm;
             downLoadAssetDone = AssetDownLoadDone;
 
-            StartCoroutine(LoadBackGroundURL()); // 加载背景切换动画
-            StartCoroutine(FreshTips()); // 提示文字动画
-            StartCoroutine(AssetCheckAnm()); // 资源检测动画
+            /*            StartCoroutine(LoadBackGroundURL()); // 加载背景切换动画
+                        StartCoroutine(FreshTips()); // 提示文字动画
+                        StartCoroutine(AssetCheckAnm()); // 资源检测动画*/
         }
 
         private IEnumerator Start()
         {
             yield return StartCoroutine(InitLog());    // 初始化日志
+
+            yield return new WaitUntil(() => allAssetDone);
 
             yield return StartCoroutine(InitSceneAndDate());  // 初始化场景和配置文件
 
@@ -118,6 +119,41 @@ namespace Manager
             yield return null;
         }
 
+        #region 登录资源加载
+
+        private GameObject GameTips;
+        private GameObject Loading;
+        private GameObject DefaultBg;
+
+        private IEnumerator InitLoginAsset()
+        {
+            AssetBundleManager.Instance.LoadAssetBundle("UIs", "UILogin", lpCallBack);
+
+            yield return new WaitUntil(() => AssetBundleManager.Instance.IsFinsh("UIs", "UILogin"));
+
+            var assets = AssetBundleManager.Instance.LoadAllAssets("UIs", "UILogin");
+
+            var UILayer = GameObject.Find("UILayer");
+
+            foreach (var asset in assets)
+            {
+                if (asset.GetType() == typeof(GameObject) && asset.name == "DefaultBg") DefaultBg = Instantiate(asset as GameObject, UILayer.transform);
+                if (asset.GetType() == typeof(GameObject) && asset.name == "Loading") Loading = Instantiate(asset as GameObject, UILayer.transform);
+                if (asset.GetType() == typeof(GameObject) && asset.name == "GameTips") GameTips = Instantiate(asset as GameObject, UILayer.transform);
+            }
+
+            GameTips.transform.SetAsLastSibling();
+            GameTips.SetActive(false);
+            Loading.SetActive(false);
+            DefaultBg.SetActive(false);
+
+            allAssetDone = true;
+
+            yield return new WaitForEndOfFrame();
+        }
+
+        #endregion 登录资源加载
+
         #region 初始化相关
 
         // 日志
@@ -134,13 +170,13 @@ namespace Manager
 
         private IEnumerator InitSceneAndDate()
         {
-            UITips.SetActive(true);
-            UILoading.SetActive(false);
-            UILogin.SetActive(false);
+            GameTips.SetActive(true);
+            Loading.SetActive(false);
+            // UILogin.SetActive(false);
             yield return new WaitForSeconds(2f);
-            UILoading.SetActive(true);
+            Loading.SetActive(true);
             yield return new WaitForSeconds(1f);
-            UITips.SetActive(false);
+            GameTips.SetActive(false);
             yield return DataManager.Instance.LoadData();
         }
 

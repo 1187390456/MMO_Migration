@@ -222,6 +222,7 @@
     <Compile Include="Assets\Game\Script\AssetBundleTool\SceneManager.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Services\TeamService.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\CharacterManager.cs" />
+    <Compile Include="Assets\NoPackAssets\UIs\UILogin\Script\Loading.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
@@ -244,12 +245,12 @@
     <None Include="Assets\ThirdParty\XLua\Resources\perf\profiler.lua.txt" />
     <None Include="Assets\ThirdParty\Nirvana\Plugins\NirvanaNative.dll" />
     <None Include="Assets\ThirdParty\XLua\Resources\perf\memory.lua.txt" />
-    <None Include="Assets\NoPackAssets\UIs\UILogin\Login\Images\artword.txt" />
+    <None Include="Assets\StreamingAssets\Windows\TTFRecord.txt" />
+    <None Include="Assets\AssetBundles\UIs\UILogin\Prefabs\Login\Images\artword.txt" />
     <None Include="Assets\References\log4net.dll" />
     <None Include="Assets\ThirdParty\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
     <None Include="Assets\ThirdParty\DOTween\DOTween.dll" />
     <None Include="Assets\References\protobuf-net.dll" />
-    <None Include="Assets\StreamingAssets\Windows\TestAssetsRecord.txt" />
     <None Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
     <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\message_box.lua.txt" />
     <None Include="Assets\ThirdParty\Nirvana\Plugins\Android\NirvanaRuntime.dll" />
