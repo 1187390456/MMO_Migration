@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2714139251
+CRC: 3670326922
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 36c72e2a057305965f39a35d4a7a649b
+    Hash: c38dc5e804cd0defce58add8b8df0773
   TypeTreeHash:
     serializedVersion: 2
     Hash: f48c1c47b427957766bd89cb9ed915bc
@@ -230,7 +230,7 @@ Assets:
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/logo.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/down.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_gonggao_name.png
-- Assets/AssetBundles/UIs/UILogin/Animations/GameTips.controller
+- Assets/AssetBundles/UIs/UILogin/Animations/C_GameTips.controller
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ball_blue.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/SelectSexAnimation.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/SelectSex.controller
@@ -264,4 +264,4 @@ Assets:
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/taiyuan_selected.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/btn_server.png
 Dependencies:
-- D:/JSJ_MMORPG/SelfProject/Src/Client/Assets/StreamingAssets/Windows/ttf.assetbundle
+- D:/JSJ_MMORPG/SelfProject/Src/Client/Assets/StreamingAssets/Windows/common/ttf.assetbundle

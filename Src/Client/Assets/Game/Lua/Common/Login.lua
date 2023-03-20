@@ -1,6 +1,6 @@
 Login = {}
 
-local this = AssetManager
+local this = Login
 
 -- 单例
 function Login:GetInstance()

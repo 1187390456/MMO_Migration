@@ -22,8 +22,9 @@ public class TestAccount : UIBase
     private IEnumerator Start()
     {
         DontDestroyOnLoad(this);
-        yield return new WaitUntil(() => LoadingManager.Instance.isDone);
+        // yield return new WaitUntil(() => LoadingManager.Instance.isDone);
 
+        yield return null;
         SendNextCount();
     }
 

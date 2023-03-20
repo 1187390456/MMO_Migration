@@ -15,7 +15,7 @@ public class GameRoot : MonoSingleton<GameRoot>
 {
     private void Awake()
     {
-        GameStart();
+        // GameStart();
     }
 
     //  游戏初始化

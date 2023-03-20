@@ -223,7 +223,8 @@
     <Compile Include="Assets\Game\Script\AssetBundleTool\SceneManager.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Services\TeamService.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\CharacterManager.cs" />
-    <Compile Include="Assets\Game\Script\ServerInteraction\Manager\AssetManager.cs" />
+    <Compile Include="Assets\Game\Script\ServerInteraction\Manager\AssetCheckManager.cs" />
+    <Compile Include="Assets\Game\Script\Init\InitEnv.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
@@ -242,11 +243,11 @@
     <None Include="Assets\ThirdParty\Nirvana\Plugins\Standalone\NirvanaNative.dll" />
     <None Include="Assets\References\log4net.xml" />
     <None Include="Assets\Game\Shaders\Materials\AutoBuild_GUI_3D Text__KW__.shader" />
+    <None Include="Assets\StreamingAssets\Windows\CommonRecord.txt" />
     <None Include="Assets\References\protobuf-net.xml" />
     <None Include="Assets\ThirdParty\XLua\Resources\perf\profiler.lua.txt" />
     <None Include="Assets\ThirdParty\Nirvana\Plugins\NirvanaNative.dll" />
     <None Include="Assets\ThirdParty\XLua\Resources\perf\memory.lua.txt" />
-    <None Include="Assets\StreamingAssets\Windows\TTFRecord.txt" />
     <None Include="Assets\AssetBundles\UIs\UILogin\Prefabs\Login\Images\artword.txt" />
     <None Include="Assets\References\log4net.dll" />
     <None Include="Assets\ThirdParty\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
