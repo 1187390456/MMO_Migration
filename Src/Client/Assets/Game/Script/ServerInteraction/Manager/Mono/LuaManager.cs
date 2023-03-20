@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using Unity.VisualScripting;
 using UnityEngine;
 using XLua;
 
@@ -18,7 +19,14 @@ public class LuaManager : MonoSingleton<LuaManager>
     /// <summary>
     /// 执行lua代码
     /// </summary>
-    public void DoString(string chunk, string chunkName = "chunk", LuaTable env = null)
+    public IEnumerator DoString(string path, string chunk, string chunkName = "chunk", LuaTable env = null)
+    {
+        yield return new WaitUntil(() => File.Exists(PathUtil.GetAssetBundleOutPath() + path));
+
+        DoString(chunk, chunkName, env);
+    }
+
+    private void DoString(string chunk, string chunkName = "chunk", LuaTable env = null)
     {
         luaEnv.DoString(chunk, chunkName, env);
     }
@@ -26,7 +34,15 @@ public class LuaManager : MonoSingleton<LuaManager>
     /// <summary>
     /// 调用lua方法
     /// </summary>
-    public object[] CallLuaFunction(string luaName, string methodName, params object[] args)
+
+    public IEnumerator CallLuaFunction(string path, string luaName, string methodName, params object[] args)
+    {
+        yield return new WaitUntil(() => File.Exists(PathUtil.GetAssetBundleOutPath() + path));
+
+        CallLuaFunction(luaName, methodName, args);
+    }
+
+    private object[] CallLuaFunction(string luaName, string methodName, params object[] args)
     {
         LuaTable table = luaEnv.Global.Get<LuaTable>(luaName);
         LuaFunction function = table.Get<LuaFunction>(methodName);

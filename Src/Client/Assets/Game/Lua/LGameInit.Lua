@@ -10,11 +10,12 @@ end
 
 LGameInit.lp = function(name, process)
     print(name, process)
-    if process >= 1 then
-        CS.GameInit.Instance:TestFunc1()
-    end
+    CS.GameInit.Instance:TestFunc1(name, process)
+    -- if process >= 1 then
+    --     CS.GameInit.Instance:TestFunc1()
+    -- end
 end
 
 function LGameInit:Init()
-    CS.AssetBundleTool.AssetBundleManager.Instance:LoadAssetBundle("main", "UI", this.lp)
+    CS.AssetBundleManager.Instance:LoadAssetBundle("UIs", "UILogin", this.lp)
 end

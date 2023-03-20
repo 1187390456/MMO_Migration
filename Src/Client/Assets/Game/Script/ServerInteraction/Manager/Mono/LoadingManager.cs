@@ -127,29 +127,30 @@ namespace Manager
 
         private IEnumerator InitLoginAsset()
         {
-            AssetBundleManager.Instance.LoadAssetBundle("UIs", "UILogin", lpCallBack);
+            yield return null;
+            /*  AssetBundleManager.Instance.LoadAssetBundle("UIs", "UILogin", lpCallBack);
 
-            yield return new WaitUntil(() => AssetBundleManager.Instance.IsFinsh("UIs", "UILogin"));
+              yield return new WaitUntil(() => AssetBundleManager.Instance.IsFinsh("UIs", "UILogin"));
 
-            var assets = AssetBundleManager.Instance.LoadAllAssets("UIs", "UILogin");
+              var assets = AssetBundleManager.Instance.LoadAllAssets("UIs", "UILogin");
 
-            var UILayer = GameObject.Find("UILayer");
+              var UILayer = GameObject.Find("UILayer");
 
-            foreach (var asset in assets)
-            {
-                if (asset.GetType() == typeof(GameObject) && asset.name == "DefaultBg") DefaultBg = Instantiate(asset as GameObject, UILayer.transform);
-                if (asset.GetType() == typeof(GameObject) && asset.name == "Loading") Loading = Instantiate(asset as GameObject, UILayer.transform);
-                if (asset.GetType() == typeof(GameObject) && asset.name == "GameTips") GameTips = Instantiate(asset as GameObject, UILayer.transform);
-            }
+              foreach (var asset in assets)
+              {
+                  if (asset.GetType() == typeof(GameObject) && asset.name == "DefaultBg") DefaultBg = Instantiate(asset as GameObject, UILayer.transform);
+                  if (asset.GetType() == typeof(GameObject) && asset.name == "Loading") Loading = Instantiate(asset as GameObject, UILayer.transform);
+                  if (asset.GetType() == typeof(GameObject) && asset.name == "GameTips") GameTips = Instantiate(asset as GameObject, UILayer.transform);
+              }
 
-            GameTips.transform.SetAsLastSibling();
-            GameTips.SetActive(false);
-            Loading.SetActive(false);
-            DefaultBg.SetActive(false);
+              GameTips.transform.SetAsLastSibling();
+              GameTips.SetActive(false);
+              Loading.SetActive(false);
+              DefaultBg.SetActive(false);
 
-            allAssetDone = true;
+              allAssetDone = true;
 
-            yield return new WaitForEndOfFrame();
+              yield return new WaitForEndOfFrame();*/
         }
 
         #endregion 登录资源加载

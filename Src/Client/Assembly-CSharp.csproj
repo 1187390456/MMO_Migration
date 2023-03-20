@@ -89,6 +89,7 @@
     <Compile Include="Assets\Game\Script\UI\MainCityScene\Friends\UIFriendItem.cs" />
     <Compile Include="Assets\ThirdParty\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Game\Script\UI\MainCityScene\CharEquip\UICharEquip.cs" />
+    <Compile Include="Assets\NoPackAssets\UIs\UILogin\Script\Loading.cs" />
     <Compile Include="Assets\Game\Script\UI\MainCityScene\Quest\UIQuestDialong.cs" />
     <Compile Include="Assets\Game\Script\AssetBundleTool\AssetCaching.cs" />
     <Compile Include="Assets\Game\Script\Util\PathUtil.cs" />
@@ -222,7 +223,7 @@
     <Compile Include="Assets\Game\Script\AssetBundleTool\SceneManager.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Services\TeamService.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\CharacterManager.cs" />
-    <Compile Include="Assets\NoPackAssets\UIs\UILogin\Script\Loading.cs" />
+    <Compile Include="Assets\Game\Script\ServerInteraction\Manager\AssetManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />

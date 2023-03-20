@@ -15,19 +15,19 @@ public class GameRoot : MonoSingleton<GameRoot>
 {
     private void Awake()
     {
-        // StartCoroutine(InitGame());
+        GameStart();
     }
 
     //  游戏初始化
     private IEnumerator InitGame()
     {
-        /*   StartCoroutine(DownLoadRes());    // 下载资源进行对比
+        /*     StartCoroutine(DownLoadRes());    // 下载资源进行对比
 
-           yield return new WaitUntil(() => updateDone);
+             yield return new WaitUntil(() => updateDone);*/
 
-           yield return new WaitUntil(() => File.Exists(downLoadPath + "/Lua/LGameInit.Lua"));
-           // 游戏开始逻辑
-           GameStart();*/
+        yield return new WaitUntil(() => File.Exists(PathUtil.GetAssetBundleOutPath() + "/Lua/LGameInit.Lua"));
+        // 游戏开始逻辑
+        GameStart();
 
         yield return null;
     }
@@ -43,22 +43,23 @@ public class GameRoot : MonoSingleton<GameRoot>
         }));
     }
 
-    public void TestFunc1()
+    public void TestFunc1(string name, float process)
     {
-        StartCoroutine(AssetBundleManager.Instance.StarLoadAsset("main", "UI", "Update", (value) =>
-        {
-            var prefabs = value as GameObject;
-            var canvas = GameObject.Find("Canvas");
-            var target = Instantiate(prefabs, canvas.transform);
-            target.transform.Find("Content").GetComponent<Text>().text = "更新完成";
-        }));
+        Debug.Log($"{name}-{process}");
+        /*  StartCoroutine(AssetBundleManager.Instance.StarLoadAsset("main", "UI", "Update", (value) =>
+          {
+              var prefabs = value as GameObject;
+              var canvas = GameObject.Find("Canvas");
+              var target = Instantiate(prefabs, canvas.transform);
+              target.transform.Find("Content").GetComponent<Text>().text = "更新完成";
+          }));*/
     }
 
     // 游戏开始
     private void GameStart()
     {
         // 初始化lua
-        /* LuaManager.Instance.DoString("require 'LGameInit'");
-         LuaManager.Instance.CallLuaFunction("LGameInit", "Init");*/
+        StartCoroutine(LuaManager.Instance.DoString("/Lua/LGameInit.Lua", "require 'LGameInit'"));
+        StartCoroutine(LuaManager.Instance.CallLuaFunction("/Lua/LGameInit.Lua", "LGameInit", "Init"));
     }
 }
