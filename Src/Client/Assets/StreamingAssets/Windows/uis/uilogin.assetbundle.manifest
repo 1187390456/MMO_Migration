@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3670326922
+CRC: 2954054267
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -112,9 +112,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 973c04a1a4a087547a7851f1b559853f, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 6dca2442ee21dd249800ae91ba370c16, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: ccc6654882af7cb498ded6249b3425c1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6dca2442ee21dd249800ae91ba370c16, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -167,14 +167,14 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Toggle/ToggleEvent
 Assets:
-- Assets/AssetBundles/UIs/UILogin/Image/game_tips.png
+- Assets/Resources/UIs/UILogin/Image/game_tips.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/login_btn_02.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/progress_scene_bg.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/progress_scene_bg.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_icon_3.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/line_normal_1.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_juexian_selected.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/bg_img9_2.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/BackgroundSplashURL.controller
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/bg_img9_2.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/BackgroundSplashURL.controller
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/nopack/AbilityBG.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/label_new_server.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/label_04.png
@@ -183,54 +183,54 @@ Assets:
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_wuji_normal.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_taiyuan_selected.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_guying_selected.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/progress_scene_light.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Splash.anim
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/progress_scene_light.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Splash.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_desc_4.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/bg_head_mask.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_064.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/name_input_frame.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/SceneLoadingView.prefab
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/SceneLoadingView.prefab
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/shenyin_selected.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_061.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/line_selected_2.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_desc_2.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Hide.anim
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Hide.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_desc_1.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/line_normal_2.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_wuji_selected.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/line_title_line_3.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/line_title_line_3.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_juexian_normal.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/bg_top_title.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/tab_up.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/ProfContent.controller
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/bg_title_1.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/bg_title_1.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/name_input_cray_2.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_058.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_065.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/progress_scene_top.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/progress_scene_top.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/line_selected_1.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_icon_4.png
-- Assets/AssetBundles/UIs/UILogin/Animations/AniGameTips.anim
+- Assets/Resources/UIs/UILogin/Animations/AniGameTips.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/role_selected.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/title_line.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/tab_normal.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/btn_server_selected.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/login_btn_01.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_gonggao.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/progress_scene.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/decorate_frame_top.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/progress_scene.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/decorate_frame_top.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_arrow_back.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_taiyuan_normal.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/ServerGroupItem.prefab
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_067.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/RoleItem.prefab
-- Assets/AssetBundles/UIs/UILogin/RawImage/bg_login.jpg
-- Assets/AssetBundles/UIs/UILogin/RawImage/sceneloading_bg_1.jpg
+- Assets/Resources/UIs/UILogin/RawImage/bg_login.jpg
+- Assets/Resources/UIs/UILogin/RawImage/sceneloading_bg_1.jpg
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/role_plus.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/logo.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/down.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_gonggao_name.png
-- Assets/AssetBundles/UIs/UILogin/Animations/C_GameTips.controller
+- Assets/Resources/UIs/UILogin/Animations/C_GameTips.controller
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ball_blue.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/SelectSexAnimation.anim
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/SelectSex.controller
@@ -239,9 +239,9 @@ Assets:
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_icon_1.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/role_normal.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ball_gray.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/LoadingView.prefab
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading.prefab
-- Assets/AssetBundles/UIs/UILogin/Prefabs/DefaultBg.prefab
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/LoadingView.prefab
+- Assets/Resources/UIs/UILogin/Prefabs/Loading.prefab
+- Assets/Resources/UIs/UILogin/Prefabs/DefaultBg.prefab
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/btn_create_role.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/ServerItem.prefab
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_068.png
@@ -251,9 +251,9 @@ Assets:
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/LoginView.prefab
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/name_input_cray.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/juexian_selected.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/btn_medium_yellow.png
+- Assets/Resources/UIs/UILogin/Prefabs/Loading/Images/btn_medium_yellow.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_066.png
-- Assets/AssetBundles/UIs/UILogin/Prefabs/GameTips.prefab
+- Assets/Resources/UIs/UILogin/Prefabs/GameTips.prefab
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/xuanzefuwuqi.png
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/artword.txt
 - Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_guying_normal.png

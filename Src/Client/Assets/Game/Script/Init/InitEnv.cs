@@ -7,14 +7,8 @@ using UnityEngine;
 
 public class InitEnv : MonoSingleton<InitEnv>
 {
-    private void Awake()
+    public IEnumerator EnvStart()
     {
-    }
-
-    private IEnumerator Start()
-    {
-        yield return StartCoroutine(InitLog());    // 初始化日志
-
         yield return StartCoroutine(AssetCheckManager.Instance.CheckAssetUpdate()); // 资源更新检测
 
         if (AssetCheckManager.Instance.needUpdate)
@@ -22,12 +16,14 @@ public class InitEnv : MonoSingleton<InitEnv>
 
         yield return StartCoroutine(AssetCheckManager.Instance.StartLoadAsset()); // 开始资源加载
 
+        yield return StartCoroutine(InitLog());     // 初始化日志
+
         yield return StartCoroutine(DataManager.Instance.LoadData()); //初始化配置表数据
 
         yield return StartCoroutine(InitServerAndManager());     // 初始化服务
     }
 
-    // 日志
+    // 初始化日志
     private IEnumerator InitLog()
     {
         log4net.Config.XmlConfigurator.ConfigureAndWatch(new System.IO.FileInfo("log4net.xml"));

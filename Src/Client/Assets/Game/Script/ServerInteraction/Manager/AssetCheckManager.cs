@@ -1,14 +1,11 @@
-﻿using Common;
-using CustomTools;
+﻿using CustomTools;
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
-using XLua;
 
 public class AssetCheckManager : MonoSingleton<AssetCheckManager>
 {
@@ -18,12 +15,24 @@ public class AssetCheckManager : MonoSingleton<AssetCheckManager>
 
     public bool needUpdate = false; // 是否需要更新
     public Func<int, int, bool, IEnumerator> downLoadCallBack; // 单个资源下载回调 或 资源变化回调(未更新跳过)
-    public Action downLoadAssetDone; // 资源更新完毕
-    public Action loadAssetDone; // 加载资源完毕
+
+    public Func<IEnumerator> startAssetCheck; // 开始资源检测
+    public Func<IEnumerator> assetCheckDone; // 资源检测完毕
+
+    public Func<IEnumerator> startDownLoadAsset; // 开始资源更新
+    public Func<IEnumerator> downLoadAssetDone; // 资源更新完毕
+
+    public Func<IEnumerator> startLoadAsset; // 开始加载资源
+    public Func<IEnumerator> loadAssetDone; // 加载资源完毕
 
     // 资源更新检测
     public IEnumerator CheckAssetUpdate()
     {
+        StartCoroutine(startAssetCheck?.Invoke());
+
+        //TODO 测试用到时候要删的
+        yield return new WaitForSeconds(4.0f);
+
         // 请求md5效验文件
         UnityWebRequest www = UnityWebRequest.Get(fileUrl);
         yield return www.SendWebRequest();
@@ -33,6 +42,7 @@ public class AssetCheckManager : MonoSingleton<AssetCheckManager>
         {
             // 本地不存在效验文件 需要更新
             needUpdate = true;
+            StartCoroutine(assetCheckDone?.Invoke());
             yield break;
         }
 
@@ -50,6 +60,7 @@ public class AssetCheckManager : MonoSingleton<AssetCheckManager>
             if (!File.Exists(localFile))  // 本地不存在该文件 需要更新
             {
                 needUpdate = true;
+                StartCoroutine(assetCheckDone?.Invoke());
                 yield break;
             }
             else
@@ -60,17 +71,21 @@ public class AssetCheckManager : MonoSingleton<AssetCheckManager>
                 if (md5 != localMd5)  // 本地存在文件 但是更新了
                 {
                     needUpdate = true;
+                    StartCoroutine(assetCheckDone?.Invoke());
                     yield break;
                 }
             }
         }
         needUpdate = false; // 所有文件名和md5都对上了
+        StartCoroutine(assetCheckDone?.Invoke());
         yield break;
     }
 
     // 资源下载
     public IEnumerator StartDownLoadAssets()
     {
+        StartCoroutine(startDownLoadAsset?.Invoke());
+
         // 获取远程Md5文件
         UnityWebRequest www = UnityWebRequest.Get(fileUrl);
         yield return www.SendWebRequest();
@@ -122,27 +137,26 @@ public class AssetCheckManager : MonoSingleton<AssetCheckManager>
         }
 
         yield return new WaitUntil(() => total == cur);
-        downLoadAssetDone?.Invoke();
+        StartCoroutine(downLoadAssetDone?.Invoke());
     }
 
     // 资源加载
     public IEnumerator StartLoadAsset()
     {
+        StartCoroutine(startLoadAsset?.Invoke());
+
         // 开始资源加载
-        //   AssetBundleManager.Instance.LoadAssetBundle("Common", "TTF", null);
         AssetBundleManager.Instance.LoadAssetBundle("UIs", "UILogin", null);
 
         yield return new WaitUntil(() => AssetFinshConditon());
 
-        loadAssetDone?.Invoke();
+        StartCoroutine(loadAssetDone?.Invoke());
     }
 
     // 资源加载完成条件
     private bool AssetFinshConditon()
     {
         return AssetBundleManager.Instance.IsFinsh("UIs", "UILogin");
-        //  AssetBundleManager.Instance.IsFinsh("Common", "TTF") &&
-
     }
 
     //  下载文件并保存在本地
@@ -172,17 +186,4 @@ public class AssetCheckManager : MonoSingleton<AssetCheckManager>
         }
         return sb.ToString();
     }
-
-    /*    [LuaCallCSharp]
-        public void LoadSceneCallBack(string name, float process)
-        {
-            Debug.Log(name);
-            Debug.Log(process);
-        }
-
-        public void InstanAndSetLayer(GameObject prefab, int layer)
-        {
-            var go = GameObject.Instantiate(prefab);
-            go.transform.SetSiblingIndex(layer);
-        }*/
 }

@@ -4,6 +4,7 @@ using Services;
 using System;
 using System.Collections;
 using System.IO;
+using System.Runtime.ConstrainedExecution;
 using System.Security.Cryptography;
 using System.Text;
 using UnityEngine;
@@ -39,14 +40,9 @@ namespace Manager
 
     public class LoadingManager : MonoSingleton<LoadingManager>
     {
-        private void Awake()
-        {
-            AssetCheckManager.Instance.loadAssetDone = AllAssetDone;
-            AssetCheckManager.Instance.downLoadAssetDone = AllAssetDownLoadDone;
-            AssetCheckManager.Instance.downLoadCallBack = SingleAssetDownDone;
-        }
+        // Prefabs
 
-        private GameObject DefaultBg;
+        private GameObject root;
         private GameObject GameTips;
         private GameObject Loading;
 
@@ -57,85 +53,28 @@ namespace Manager
         private Text Version;
         private Text ProgressTips;
         private Text ProgressText;
-        private Text ProgressNumber;
-        private GameObject AssetCheck;
+        private Text AssetCheckText;
         private Slider ProgressBar;
 
-        // 所有资源加载完毕
-        private void AllAssetDone()
+        private void Awake()
         {
-            var assets = AssetBundleManager.Instance.LoadAllAssets("UIs", "UILogin");
+            InitPrefabs(); // 初始化默认加载预制件
 
-            var login = GameObject.Find("UILayer").transform.Find("Login");
+            AssetCheckManager.Instance.startAssetCheck = StartAssetCheck;
+            AssetCheckManager.Instance.assetCheckDone = AssetCheckDone;
 
-            //TOOD 后期优化
-            foreach (var asset in assets)
-            {
-                if (asset.GetType() == typeof(GameObject) && asset.name == "DefaultBg") DefaultBg = Instantiate(asset as GameObject, login);
-                if (asset.GetType() == typeof(GameObject) && asset.name == "Loading") Loading = Instantiate(asset as GameObject, login);
-                if (asset.GetType() == typeof(GameObject) && asset.name == "GameTips") GameTips = Instantiate(asset as GameObject, login);
-            }
+            AssetCheckManager.Instance.startDownLoadAsset = StartDownLoadAsset;
+            AssetCheckManager.Instance.downLoadAssetDone = AllAssetDownLoadDone;
 
-            UINameTable table = Loading.GetComponent<UINameTable>();
-            BackGround = table.Find("BackGround");
-            BackGroundURL = table.Find("BackGroundURL").transform;
-            Version = table.Find("Version").GetComponent<Text>();
-            ProgressTips = table.Find("ProgressTips").GetComponent<Text>();
-            ProgressText = table.Find("ProgressText").GetComponent<Text>();
-            ProgressNumber = table.Find("ProgressNumber").GetComponent<Text>();
-            ProgressBar = table.Find("ProgressBar").GetComponent<Slider>();
-            AssetCheck = table.Find("AssetCheck");
+            AssetCheckManager.Instance.startLoadAsset = StartLoadAsset;
+            AssetCheckManager.Instance.loadAssetDone = AllAssetDone;
 
-            GameTips.transform.SetAsLastSibling();
-            GameTips.SetActive(false);
-            Loading.SetActive(false);
-            DefaultBg.SetActive(false);
-
-            StartCoroutine(InitScene()); // 初始化场景
-        }
-
-        // 所有资源下载完毕
-
-        private void AllAssetDownLoadDone()
-        {
-            Debug.Log("更新完毕");
-
-            ProgressNumber.text = "";
-            ProgressNumber.transform.parent.GetComponent<Text>().text = "更新完毕";
-        }
-
-        // 单个资源下载完毕
-        private IEnumerator SingleAssetDownDone(int total, int cur, bool isPass)
-        {
-            yield return new WaitForEndOfFrame();
-            string msg = isPass ? $"该资源不更新{cur}/{total}" : $"正在下载资源{cur}/{total}";
-            Debug.Log(msg);
-            ProgressNumber.text = $"{cur}/{total}"; ;
-            ProgressNumber.transform.parent.GetComponent<Text>().text = $"正在下载资源";
-        }
-
-        // 初始化场景
-
-        private IEnumerator InitScene()
-        {
-            StartCoroutine(LoadBackGroundURL()); // 加载背景切换动画
-            StartCoroutine(FreshTips()); // 提示文字动画
-            StartCoroutine(AssetCheckAnm()); // 资源检测动画
-
-            yield return new WaitForEndOfFrame();
-
-            GameTips.SetActive(true);
-            Loading.SetActive(false);
-            // UILogin.SetActive(false);
-            yield return new WaitForSeconds(2f);
-            Loading.SetActive(true);
-            yield return new WaitForSeconds(1f);
-            GameTips.SetActive(false);
+            AssetCheckManager.Instance.downLoadCallBack = SingleAssetDownDone;
         }
 
         private IEnumerator Start()
         {
-            yield return null;
+            yield return StartCoroutine(InitScene());
 
             /*      yield return StartCoroutine(InitSceneAndDate());  // 初始化场景和配置文件
 
@@ -171,27 +110,143 @@ namespace Manager
    */
         }
 
+        // 初始化起始预制件
+        private void InitPrefabs()
+        {
+            root = GoExtend.Instance.InstanAndSetLayer(AssetManager.Instance.Root, AssetManager.Instance.UILayer, LayerIndex.last, true, "UILogin");
+            GameTips = GoExtend.Instance.InstanAndSetLayer(AssetManager.Instance.GameTips, root.transform, LayerIndex.first);
+            Loading = GoExtend.Instance.InstanAndSetLayer(AssetManager.Instance.Loading, root.transform);
+
+            UINameTable table = Loading.GetComponent<UINameTable>();
+            BackGround = table.Find("BackGround");
+            BackGroundURL = table.Find("BackGroundURL").transform;
+            Version = table.Find("Version").GetComponent<Text>();
+            ProgressTips = table.Find("ProgressTips").GetComponent<Text>();
+            ProgressText = table.Find("ProgressText").GetComponent<Text>();
+            ProgressBar = table.Find("ProgressBar").GetComponent<Slider>();
+            AssetCheckText = table.Find("AssetCheckText").GetComponent<Text>();
+        }
+
+        // 初始化场景
+
+        private IEnumerator InitScene()
+        {
+            StartCoroutine(LoadBackGroundURL()); // 加载背景切换动画
+            StartCoroutine(FreshTips()); // 提示文字动画
+
+            yield return new WaitForEndOfFrame();
+            GameTips.SetActive(true);
+            Loading.SetActive(false);
+            yield return new WaitForSeconds(2f);
+            Loading.SetActive(true);
+            yield return new WaitForSeconds(1f);
+            GameTips.SetActive(false);
+
+            StartCoroutine(InitEnv.Instance.EnvStart()); // 环境加载
+        }
+
+        #region 资源回调
+
+        // 开始检测资源
+        private IEnumerator StartAssetCheck()
+        {
+            Debug.Log("开始检测资源");
+            ProgressText.text = "";
+            AssetCheckText.text = "开始检测资源";
+
+            yield return new WaitForEndOfFrame();
+
+            StartCoroutine(AssetCheckAnm()); // 资源检测动画
+        }
+
+        // 资源检测完毕
+        private IEnumerator AssetCheckDone()
+        {
+            yield return new WaitForEndOfFrame();
+
+            Debug.Log("资源检测完毕");
+            ProgressText.text = "资源检测完毕";
+            AssetCheckText.text = "";
+
+            //TODO 弹窗 提示更新
+        }
+
+        // 开始下载资源
+        private IEnumerator StartDownLoadAsset()
+        {
+            yield return new WaitForEndOfFrame();
+
+            Debug.Log("开始下载资源");
+            ProgressText.text = "开始下载资源";
+        }
+
+        // 单个资源下载完毕
+        private IEnumerator SingleAssetDownDone(int total, int cur, bool isPass)
+        {
+            yield return new WaitForEndOfFrame();
+
+            string msg = isPass ? $"该资源不更新{cur}/{total}" : $"正在下载资源{cur}/{total}";
+            Debug.Log(msg);
+            ProgressBar.maxValue = total;
+            ProgressBar.value = cur;
+            ProgressText.text = $"正在下载资源{cur}/{total}";
+        }
+
+        // 所有资源下载完毕
+        private IEnumerator AllAssetDownLoadDone()
+        {
+            yield return new WaitForEndOfFrame();
+
+            Debug.Log("更新完毕");
+            ProgressText.text = "更新完毕";
+        }
+
+        // 开始资源加载
+        private IEnumerator StartLoadAsset()
+        {
+            yield return new WaitForEndOfFrame();
+
+            Debug.Log("开始加载资源");
+            ProgressText.text = "开始加载资源";
+        }
+
+        // 所有资源加载完毕
+        private IEnumerator AllAssetDone()
+        {
+            yield return new WaitForEndOfFrame();
+
+            //TODO 测试用
+            ProgressBar.maxValue = 1;
+            ProgressBar.value = 1;
+
+            Debug.Log("资源加载完毕");
+            ProgressText.text = "资源加载完毕";
+
+            var assets = AssetBundleManager.Instance.LoadAllAssets("UIs", "UILogin");
+        }
+
+        #endregion 资源回调
+
         #region 场景文字图片 动画相关
 
         // 检测资源 文字动画
         private IEnumerator AssetCheckAnm()
         {
             int dot = 1;
-            Text txt = AssetCheck.GetComponent<Text>();
-            while (AssetCheck.gameObject.activeSelf)
+            while (AssetCheckText.text != "")
             {
                 switch (dot)
                 {
                     case 1:
-                        txt.text = "正在检测资源.";
+                        AssetCheckText.text = "正在检测资源.";
                         break;
 
                     case 2:
-                        txt.text = "正在检测资源..";
+                        AssetCheckText.text = "正在检测资源..";
                         break;
 
                     case 3:
-                        txt.text = "正在检测资源...";
+                        AssetCheckText.text = "正在检测资源...";
                         break;
                 }
                 dot++;

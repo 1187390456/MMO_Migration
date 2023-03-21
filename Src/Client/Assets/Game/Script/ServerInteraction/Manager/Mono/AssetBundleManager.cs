@@ -10,7 +10,7 @@ using XLua;
 /// AssetBundle管理类
 /// </summary>
 [LuaCallCSharp]
-public class AssetBundleManager : MonoSingleton<AssetBundleManager>
+public class AssetBundleManager : MonoSingleton<AssetBundleManager> // 打包的资源
 {
     private void Awake()
     {

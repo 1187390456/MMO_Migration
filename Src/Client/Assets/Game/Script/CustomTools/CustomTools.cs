@@ -11,17 +11,6 @@ using Object = UnityEngine.Object;
 namespace CustomTools
 {
     /// <summary>
-    /// 资源加载重写
-    /// </summary>
-    public class Resloader
-    {
-        public static T Load<T>(string path) where T : Object
-        {
-            return Resources.Load<T>(path);
-        }
-    }
-
-    /// <summary>
     /// 通用日志输出类 重写Unity日志
     /// </summary>
     public class UnityLogger

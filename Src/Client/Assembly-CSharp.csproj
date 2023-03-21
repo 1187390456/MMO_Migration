@@ -89,7 +89,7 @@
     <Compile Include="Assets\Game\Script\UI\MainCityScene\Friends\UIFriendItem.cs" />
     <Compile Include="Assets\ThirdParty\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Game\Script\UI\MainCityScene\CharEquip\UICharEquip.cs" />
-    <Compile Include="Assets\NoPackAssets\UIs\UILogin\Script\Loading.cs" />
+    <Compile Include="Assets\Resources\UIs\UILogin\Script\Loading.cs" />
     <Compile Include="Assets\Game\Script\UI\MainCityScene\Quest\UIQuestDialong.cs" />
     <Compile Include="Assets\Game\Script\AssetBundleTool\AssetCaching.cs" />
     <Compile Include="Assets\Game\Script\Util\PathUtil.cs" />
@@ -121,11 +121,13 @@
     <Compile Include="Assets\Game\Script\GameObject\SpawnObject.cs" />
     <Compile Include="Assets\ThirdParty\XLua\Src\CodeEmit.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\Mono\SceneManager.cs" />
+    <Compile Include="Assets\Game\Script\ServerInteraction\Manager\AssetManager.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\EntityManager.cs" />
     <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\AsyncTest.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\ItemManager.cs" />
     <Compile Include="Assets\ThirdParty\XLua\Src\LuaException.cs" />
     <Compile Include="Assets\Game\Script\UI\Base\UIEvent.cs" />
+    <Compile Include="Assets\Game\Script\ServerInteraction\Manager\AssetCheckManager.cs" />
     <Compile Include="Assets\Game\Script\UI\Common\Tab\TabButton.cs" />
     <Compile Include="Assets\Game\Script\UI\CharSelectScene\CreatePanel.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\Mono\LuaManager.cs" />
@@ -186,11 +188,12 @@
     <Compile Include="Assets\ThirdParty\XLua\Examples\05_NoGc\NoGc.cs" />
     <Compile Include="Assets\Game\Script\CustomTools\CustomTools.cs" />
     <Compile Include="Assets\Game\Script\AssetBundleTool\TempObject.cs" />
-    <Compile Include="Assets\Game\Script\ServerInteraction\Manager\ResManager.cs" />
+    <Compile Include="Assets\Game\Script\ServerInteraction\Manager\GoExtend.cs" />
     <Compile Include="Assets\Game\Script\UI\MainCityScene\Quest\UIQuestInfo.cs" />
     <Compile Include="Assets\Game\Script\Entities\Entity.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Services\MapService.cs" />
     <Compile Include="Assets\ThirdParty\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets\Game\Script\Init\InitEnv.cs" />
     <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslator.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\NpcManager.cs" />
     <Compile Include="Assets\Game\Script\UI\MainCityScene\UIWorld\Element\UIQuestStatus.cs" />
@@ -223,8 +226,6 @@
     <Compile Include="Assets\Game\Script\AssetBundleTool\SceneManager.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Services\TeamService.cs" />
     <Compile Include="Assets\Game\Script\ServerInteraction\Manager\CharacterManager.cs" />
-    <Compile Include="Assets\Game\Script\ServerInteraction\Manager\AssetCheckManager.cs" />
-    <Compile Include="Assets\Game\Script\Init\InitEnv.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
