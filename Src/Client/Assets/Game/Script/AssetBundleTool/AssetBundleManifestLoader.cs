@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using CustomTools;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,52 +9,15 @@ namespace AssetBundleTool
     /// <summary>
     /// 加载 manifest 文件
     /// </summary>
-    public class AssetBundleManifestLoader
+    public class AssetBundleManifestLoader : Singleton<AssetBundleManifestLoader>
     {
-        private static AssetBundleManifestLoader instance;
-
-        /// <summary>
-        /// 单例对象
-        /// </summary>
-        public static AssetBundleManifestLoader Instance
-        {
-            get
-            {
-                if (instance == null)
-                    instance = new AssetBundleManifestLoader();
-                return instance;
-            }
-        }
-
-        /// <summary>
-        /// Manifest文件
-        /// </summary>
-        private AssetBundleManifest manifest;
-
-        /// <summary>
-        /// 路径
-        /// </summary>
-        private string manifestPath;
-
         private bool finish;
+        private AssetBundleManifest manifest; // 加载的Manifest文件
+        private string manifestPath; // 加载的Manifest文件路径
+        private AssetBundle assetBundle; //  全局存在的assetbundle
+        public bool Finish => finish; // 是否完成
 
-        /// <summary>
-        /// 是否加载完成
-        /// </summary>
-        public bool Finish
-        {
-            get { return finish; }
-        }
-
-        /// <summary>
-        /// 全局存在的assetbundle
-        /// </summary>
-        private AssetBundle assetBundle;
-
-        /// <summary>
-        /// 构造函数
-        /// </summary>
-        private AssetBundleManifestLoader()
+        public AssetBundleManifestLoader()
         {
             this.manifestPath = PathUtil.GetWWWPath() + "/" + PathUtil.GetPlatformName();
 
@@ -62,19 +26,14 @@ namespace AssetBundleTool
             this.finish = false;
         }
 
-        /// <summary>
-        /// 开始加载
-        /// </summary>
-        /// <returns></returns>
+        // 加载
         public IEnumerator Load()
         {
+            //  Debug.LogFormat("开始加载Manifest文件 路径: {0}", manifestPath);
             WWW www = new WWW(manifestPath);
             yield return www;
 
-            if (www.error != null)
-            {
-                Debug.LogError("加载Manifest文件出错 : " + www.error);
-            }
+            if (www.error != null) Debug.LogError("加载Manifest文件出错 : " + www.error);
             else
             {
                 if (www.progress >= 1f)
@@ -82,26 +41,14 @@ namespace AssetBundleTool
                     this.assetBundle = www.assetBundle;
                     this.manifest = this.assetBundle.LoadAsset("AssetBundleManifest") as AssetBundleManifest;
                     this.finish = true;
+
+                    //   Debug.LogFormat("加载Manifest文件完毕 {0}-{1}-{2}", this.assetBundle, this.manifest, this.finish);
                 }
             }
         }
 
-        /// <summary>
-        /// 获取所有的依赖关系
-        /// </summary>
-        /// <param name="bundleName">包名</param>
-        /// <returns></returns>
-        public string[] GetDependencies(string bundleName)
-        {
-            return manifest.GetAllDependencies(bundleName);
-        }
+        public string[] GetDependencies(string bundleName) => manifest.GetAllDependencies(bundleName);// 获取指定包名的所有的依赖关系
 
-        /// <summary>
-        /// 卸载 manifest
-        /// </summary>
-        public void UnLoad()
-        {
-            assetBundle.Unload(true);
-        }
+        public void UnLoad() => assetBundle.Unload(true); // 卸载 manifest
     }
 }

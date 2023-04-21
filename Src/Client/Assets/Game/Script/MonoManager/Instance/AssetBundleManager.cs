@@ -12,13 +12,7 @@ using XLua;
 [LuaCallCSharp]
 public class AssetBundleManager : MonoSingleton<AssetBundleManager> // 打包的资源
 {
-    private void Awake()
-    {
-        //先加载manifest文件
-        StartCoroutine(AssetBundleManifestLoader.Instance.Load());
-
-        DontDestroyOnLoad(this);
-    }
+    private void Awake() => StartCoroutine(AssetBundleManifestLoader.Instance.Load());  //加载manifest文件
 
     private void OnDestroy()
     {

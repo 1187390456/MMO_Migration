@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class InitEnv : MonoSingleton<InitEnv>
 {
+    // 环境初始化
     public IEnumerator EnvStart()
     {
         yield return StartCoroutine(AssetCheckManager.Instance.CheckAssetUpdate()); // 资源更新检测
