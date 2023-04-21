@@ -1,0 +1,2 @@
+1
+TTF common/ttf.assetbundle

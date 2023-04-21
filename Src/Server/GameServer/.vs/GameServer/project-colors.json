@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ecf59eee-d33e-41ee-b2f8-b59bcdba856f": {
+      "ProjectGuid": "ecf59eee-d33e-41ee-b2f8-b59bcdba856f",
+      "DisplayName": "Protocol",
+      "ColorIndex": 0
+    },
+    "2c54695d-ac9f-455b-846d-0e865991f681": {
+      "ProjectGuid": "2c54695d-ac9f-455b-846d-0e865991f681",
+      "DisplayName": "GameServer",
+      "ColorIndex": 1
+    },
+    "ce169e52-a80e-4c19-b75b-823907b4ecef": {
+      "ProjectGuid": "ce169e52-a80e-4c19-b75b-823907b4ecef",
+      "DisplayName": "Common",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

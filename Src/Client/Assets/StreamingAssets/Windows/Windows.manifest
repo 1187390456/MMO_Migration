@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 183277059
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: uis/uilogin.assetbundle
+      Dependencies:
+        Dependency_0: common/ttf.assetbundle
+    Info_1:
+      Name: common/ttf.assetbundle
+      Dependencies: {}

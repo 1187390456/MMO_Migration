@@ -1,0 +1,881 @@
+
+2023-01-11 10:25:07,640 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-11 10:25:08,479 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-11 10:25:08,592 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 10:25:08,593 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 10:25:08,593 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 10:25:08,593 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 10:25:08,593 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 10:25:08,594 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 10:25:09,192 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 10:25:10,191 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 10:25:10,205 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-11 10:25:15,517 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55521]] Connected
+2023-01-11 10:25:24,257 [5] [WARN ] [GameServer] ：Client[127.0.0.1:55528]] Connected
+2023-01-11 10:25:24,261 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:25:24,323 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:25:24,476 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 10:26:34,032 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:26:47,703 [16] [WARN ] [GameServer] ：Client[127.0.0.1:55594]] Connected
+2023-01-11 10:26:52,819 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:26:52,820 [16] [WARN ] [GameServer] ：Client[127.0.0.1:55597]] Connected
+2023-01-11 10:26:52,874 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:26:52,875 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 10:26:58,904 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:29:42,762 [15] [WARN ] [GameServer] ：Client[127.0.0.1:55691]] Connected
+2023-01-11 10:29:48,208 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:29:48,209 [15] [WARN ] [GameServer] ：Client[127.0.0.1:55693]] Connected
+2023-01-11 10:29:48,266 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:29:48,266 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 10:29:55,077 [20] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:30:43,753 [20] [WARN ] [GameServer] ：Client[127.0.0.1:55718]] Connected
+2023-01-11 10:30:50,460 [20] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:30:50,461 [20] [WARN ] [GameServer] ：Client[127.0.0.1:55721]] Connected
+2023-01-11 10:30:50,512 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:30:50,514 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:2 Pass:2 
+2023-01-11 10:30:52,985 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:30:52,986 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:3 Pass:3 
+2023-01-11 10:30:58,029 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:30:58,029 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:4 Pass:4 
+2023-01-11 10:31:00,483 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:31:00,484 [7] [INFO ] [GameServer] ：UserLoginRequest: User:4 Pass:4 
+2023-01-11 10:31:06,214 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 10:31:06,217 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:666 clase:666 
+2023-01-11 10:31:55,745 [20] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:37:32,511 [20] [WARN ] [GameServer] ：Client[127.0.0.1:55826]] Connected
+2023-01-11 10:37:38,383 [20] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:37:38,384 [20] [WARN ] [GameServer] ：Client[127.0.0.1:55827]] Connected
+2023-01-11 10:37:38,442 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:37:38,442 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 10:38:30,064 [37] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:38:30,065 [40] [WARN ] [GameServer] ：Client[127.0.0.1:55853]] Connected
+2023-01-11 10:38:31,667 [41] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:40:33,423 [41] [WARN ] [GameServer] ：Client[127.0.0.1:55917]] Connected
+2023-01-11 10:40:35,046 [41] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:40:49,101 [41] [WARN ] [GameServer] ：Client[127.0.0.1:55946]] Connected
+2023-01-11 10:40:55,128 [46] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:40:55,128 [41] [WARN ] [GameServer] ：Client[127.0.0.1:55954]] Connected
+2023-01-11 10:40:55,182 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:40:55,182 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 10:40:59,277 [47] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:41:11,296 [47] [WARN ] [GameServer] ：Client[127.0.0.1:55959]] Connected
+2023-01-11 10:41:16,318 [47] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:41:16,318 [47] [WARN ] [GameServer] ：Client[127.0.0.1:55961]] Connected
+2023-01-11 10:41:16,369 [47] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:41:16,370 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 10:41:39,328 [49] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:50:35,116 [50] [WARN ] [GameServer] ：Client[127.0.0.1:56133]] Connected
+2023-01-11 10:50:40,994 [50] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:50:40,996 [50] [WARN ] [GameServer] ：Client[127.0.0.1:56135]] Connected
+2023-01-11 10:50:41,050 [50] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:50:41,051 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 10:50:53,722 [50] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:55:30,574 [30] [WARN ] [GameServer] ：Client[127.0.0.1:56230]] Connected
+2023-01-11 10:55:37,141 [30] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:55:37,142 [30] [WARN ] [GameServer] ：Client[127.0.0.1:56233]] Connected
+2023-01-11 10:55:37,192 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:55:37,193 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 10:57:42,956 [35] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:59:25,880 [59] [WARN ] [GameServer] ：Client[127.0.0.1:56315]] Connected
+2023-01-11 10:59:31,315 [54] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 10:59:31,315 [59] [WARN ] [GameServer] ：Client[127.0.0.1:56317]] Connected
+2023-01-11 10:59:31,364 [59] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 10:59:31,364 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:03:17,702 [59] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:03:24,254 [59] [WARN ] [GameServer] ：Client[127.0.0.1:56380]] Connected
+2023-01-11 11:03:30,331 [59] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:03:30,332 [59] [WARN ] [GameServer] ：Client[127.0.0.1:56383]] Connected
+2023-01-11 11:03:30,382 [59] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:03:30,382 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:05:26,668 [59] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:06:18,804 [59] [WARN ] [GameServer] ：Client[127.0.0.1:56446]] Connected
+2023-01-11 11:06:24,486 [40] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:06:24,486 [59] [WARN ] [GameServer] ：Client[127.0.0.1:56449]] Connected
+2023-01-11 11:06:24,535 [59] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:06:24,535 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:06:51,330 [38] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:07:24,014 [38] [WARN ] [GameServer] ：Client[127.0.0.1:56477]] Connected
+2023-01-11 11:07:28,914 [37] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:07:28,914 [38] [WARN ] [GameServer] ：Client[127.0.0.1:56479]] Connected
+2023-01-11 11:07:28,965 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:07:28,965 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:11:09,298 [38] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:11:12,373 [38] [WARN ] [GameServer] ：Client[127.0.0.1:56551]] Connected
+2023-01-11 11:11:21,546 [38] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:11:21,547 [38] [WARN ] [GameServer] ：Client[127.0.0.1:56555]] Connected
+2023-01-11 11:11:21,601 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 11:11:21,602 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:12 Pass:12 
+2023-01-11 11:11:23,721 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 11:11:23,722 [8] [INFO ] [GameServer] ：UserLoginRequest: User:12 Pass:12 
+2023-01-11 11:11:32,051 [38] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:13:45,998 [38] [WARN ] [GameServer] ：Client[127.0.0.1:56604]] Connected
+2023-01-11 11:13:51,148 [38] [WARN ] [GameServer] ：Client[127.0.0.1:56605]] Connected
+2023-01-11 11:13:51,148 [5] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:13:51,202 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 11:13:51,202 [7] [INFO ] [GameServer] ：UserLoginRequest: User:12 Pass:12 
+2023-01-11 11:14:00,644 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:29:15,429 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56932]] Connected
+2023-01-11 11:29:23,409 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56933]] Connected
+2023-01-11 11:29:23,409 [87] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:29:23,461 [87] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:29:23,462 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:29:29,060 [86] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:29:32,791 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56937]] Connected
+2023-01-11 11:29:38,271 [87] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:29:38,272 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56938]] Connected
+2023-01-11 11:29:38,323 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:29:38,324 [7] [INFO ] [GameServer] ：UserLoginRequest: User:2 Pass:2 
+2023-01-11 11:30:23,550 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:30:39,995 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56974]] Connected
+2023-01-11 11:30:46,094 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56977]] Connected
+2023-01-11 11:30:46,094 [83] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:30:46,143 [83] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:30:46,144 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:31:10,006 [82] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:31:15,089 [80] [WARN ] [GameServer] ：Client[127.0.0.1:56983]] Connected
+2023-01-11 11:31:20,773 [82] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:31:20,774 [80] [WARN ] [GameServer] ：Client[127.0.0.1:56988]] Connected
+2023-01-11 11:31:20,825 [80] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:31:20,825 [7] [INFO ] [GameServer] ：UserLoginRequest: User:2 Pass:2 
+2023-01-11 11:31:34,526 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 11:31:34,527 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:5555 clase:5555 
+2023-01-11 11:31:40,501 [82] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:42:37,908 [82] [WARN ] [GameServer] ：Client[127.0.0.1:57200]] Connected
+2023-01-11 11:42:39,036 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:43:15,758 [4] [WARN ] [GameServer] ：Client[127.0.0.1:57215]] Connected
+2023-01-11 11:43:26,711 [23] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:43:26,711 [4] [WARN ] [GameServer] ：Client[127.0.0.1:57217]] Connected
+2023-01-11 11:43:26,760 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:43:26,761 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:44:01,115 [23] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:44:51,105 [24] [WARN ] [GameServer] ：Client[127.0.0.1:57256]] Connected
+2023-01-11 11:44:56,137 [37] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:44:56,138 [24] [WARN ] [GameServer] ：Client[127.0.0.1:57257]] Connected
+2023-01-11 11:44:56,190 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:44:56,190 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:45:13,703 [24] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:45:18,340 [24] [WARN ] [GameServer] ：Client[127.0.0.1:57267]] Connected
+2023-01-11 11:45:25,712 [24] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:45:25,713 [24] [WARN ] [GameServer] ：Client[127.0.0.1:57268]] Connected
+2023-01-11 11:45:25,764 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:45:25,765 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:123 Pass:123 
+2023-01-11 11:45:27,882 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:45:27,883 [7] [INFO ] [GameServer] ：UserLoginRequest: User:123 Pass:123 
+2023-01-11 11:45:33,362 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:45:33,362 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123123 clase:123123 
+2023-01-11 11:45:51,179 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:45:51,180 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123123 clase:123123 
+2023-01-11 11:46:06,943 [40] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:51:46,864 [40] [WARN ] [GameServer] ：Client[127.0.0.1:57391]] Connected
+2023-01-11 11:51:52,074 [40] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:51:52,078 [40] [WARN ] [GameServer] ：Client[127.0.0.1:57394]] Connected
+2023-01-11 11:51:52,133 [40] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:51:52,134 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:52:52,705 [40] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:53:44,682 [54] [WARN ] [GameServer] ：Client[127.0.0.1:57441]] Connected
+2023-01-11 11:53:51,813 [54] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:53:51,814 [54] [WARN ] [GameServer] ：Client[127.0.0.1:57446]] Connected
+2023-01-11 11:53:51,862 [54] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:53:51,863 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:53:54,341 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:54:34,181 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57456]] Connected
+2023-01-11 11:54:39,244 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57459]] Connected
+2023-01-11 11:54:39,244 [50] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:54:39,302 [50] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:54:39,302 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:54:41,502 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:55:07,245 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57473]] Connected
+2023-01-11 11:55:32,082 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:55:39,994 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57478]] Connected
+2023-01-11 11:55:53,193 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:55:53,194 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57480]] Connected
+2023-01-11 11:55:53,243 [57] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:55:53,244 [7] [INFO ] [GameServer] ：UserLoginRequest: User:2 Pass:2 
+2023-01-11 11:55:56,827 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:56:00,531 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57486]] Connected
+2023-01-11 11:56:05,427 [36] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:56:05,428 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57488]] Connected
+2023-01-11 11:56:05,481 [35] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 11:56:05,481 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1 Pass:1 
+2023-01-11 11:56:20,565 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:56:24,605 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57500]] Connected
+2023-01-11 11:56:34,953 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:56:34,953 [57] [WARN ] [GameServer] ：Client[127.0.0.1:57503]] Connected
+2023-01-11 11:56:35,007 [57] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:56:35,008 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:666 Pass:666 
+2023-01-11 11:56:38,012 [57] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:56:38,012 [7] [INFO ] [GameServer] ：UserLoginRequest: User:666 Pass:666 
+2023-01-11 11:56:44,960 [33] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:57:10,578 [33] [WARN ] [GameServer] ：Client[127.0.0.1:57529]] Connected
+2023-01-11 11:57:20,892 [33] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:57:20,893 [33] [WARN ] [GameServer] ：Client[127.0.0.1:57532]] Connected
+2023-01-11 11:57:20,946 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:57:20,946 [7] [INFO ] [GameServer] ：UserLoginRequest: User:666 Pass:666 
+2023-01-11 11:57:24,703 [33] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:57:44,707 [33] [WARN ] [GameServer] ：Client[127.0.0.1:57537]] Connected
+2023-01-11 11:57:52,048 [33] [WARN ] [GameServer] ：Client[127.0.0.1:57541]] Connected
+2023-01-11 11:57:52,048 [31] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 11:57:52,098 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:57:52,099 [7] [INFO ] [GameServer] ：UserLoginRequest: User:666 Pass:666 
+2023-01-11 11:58:12,624 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:58:12,624 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:XuXuXu clase:XuXuXu 
+2023-01-11 11:58:21,441 [62] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 11:58:21,441 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:XuXuXu clase:XuXuXu 
+2023-01-11 11:58:36,198 [62] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 11:58:36,199 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:Xcm clase:Xcm 
+2023-01-11 11:58:59,216 [62] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 11:58:59,216 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:Xcm clase:Xcm 
+2023-01-11 11:59:03,329 [62] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:01:52,627 [62] [WARN ] [GameServer] ：Client[127.0.0.1:57626]] Connected
+2023-01-11 12:02:00,498 [46] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:02:00,498 [62] [WARN ] [GameServer] ：Client[127.0.0.1:57629]] Connected
+2023-01-11 12:02:00,549 [62] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:02:00,549 [7] [INFO ] [GameServer] ：UserLoginRequest: User:666 Pass:666 
+2023-01-11 12:02:09,313 [46] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:02:12,434 [62] [WARN ] [GameServer] ：Client[127.0.0.1:57639]] Connected
+2023-01-11 12:02:20,241 [62] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:02:20,242 [62] [WARN ] [GameServer] ：Client[127.0.0.1:57643]] Connected
+2023-01-11 12:02:20,294 [62] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 12:02:20,294 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:q Pass:q 
+2023-01-11 12:02:22,430 [62] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 12:02:22,431 [8] [INFO ] [GameServer] ：UserLoginRequest: User:q Pass:q 
+2023-01-11 12:02:25,969 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 12:02:25,970 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qqq clase:qqq 
+2023-01-11 12:02:34,622 [62] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 12:02:34,622 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:www clase:www 
+2023-01-11 12:02:38,732 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 12:02:38,732 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:eee clase:eee 
+2023-01-11 12:02:45,137 [46] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 12:02:45,137 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:rrrr clase:rrrr 
+2023-01-11 12:03:24,358 [62] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:03:27,290 [62] [WARN ] [GameServer] ：Client[127.0.0.1:57685]] Connected
+2023-01-11 12:03:32,822 [62] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:03:32,825 [45] [WARN ] [GameServer] ：Client[127.0.0.1:57687]] Connected
+2023-01-11 12:03:32,874 [43] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 12:03:32,875 [7] [INFO ] [GameServer] ：UserLoginRequest: User:q Pass:q 
+2023-01-11 12:03:40,442 [43] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:03:45,299 [45] [WARN ] [GameServer] ：Client[127.0.0.1:57692]] Connected
+2023-01-11 12:03:55,270 [45] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:03:55,270 [45] [WARN ] [GameServer] ：Client[127.0.0.1:57693]] Connected
+2023-01-11 12:03:55,321 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 12:03:55,321 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:w Pass:w 
+2023-01-11 12:03:56,872 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 12:03:56,872 [7] [INFO ] [GameServer] ：UserLoginRequest: User:w Pass:w 
+2023-01-11 12:04:01,244 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 12:04:01,244 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123 clase:123 
+2023-01-11 12:04:07,705 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:04:07,706 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123123 clase:123123 
+2023-01-11 12:04:12,361 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 12:04:12,361 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123 clase:123 
+2023-01-11 12:04:19,400 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 12:04:19,401 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:asda clase:asda 
+2023-01-11 12:04:29,428 [42] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:10:14,951 [42] [WARN ] [GameServer] ：Client[127.0.0.1:57833]] Connected
+2023-01-11 12:10:30,708 [42] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:10:30,709 [42] [WARN ] [GameServer] ：Client[127.0.0.1:57836]] Connected
+2023-01-11 12:10:30,763 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 12:10:30,764 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:g Pass:g 
+2023-01-11 12:10:32,395 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 12:10:32,396 [7] [INFO ] [GameServer] ：UserLoginRequest: User:g Pass:g 
+2023-01-11 12:10:48,460 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2023-01-11 12:10:48,461 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:徐晨明 clase:徐晨明 
+2023-01-11 12:10:59,479 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:10:59,479 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:XuXuXu clase:XuXuXu 
+2023-01-11 12:11:25,484 [42] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:12:48,928 [42] [WARN ] [GameServer] ：Client[127.0.0.1:57885]] Connected
+2023-01-11 12:12:58,038 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:12:58,038 [42] [WARN ] [GameServer] ：Client[127.0.0.1:57903]] Connected
+2023-01-11 12:12:58,088 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 12:12:58,088 [7] [INFO ] [GameServer] ：UserLoginRequest: User:g Pass:g 
+2023-01-11 12:13:35,167 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 12:13:35,167 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:eqwe clase:eqwe 
+2023-01-11 12:13:41,951 [42] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:16:25,863 [42] [WARN ] [GameServer] ：Client[127.0.0.1:57971]] Connected
+2023-01-11 12:16:32,084 [69] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:16:32,084 [42] [WARN ] [GameServer] ：Client[127.0.0.1:57973]] Connected
+2023-01-11 12:16:32,136 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 12:16:32,137 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:qa Pass:qa 
+2023-01-11 12:16:33,979 [70] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 12:16:33,980 [7] [INFO ] [GameServer] ：UserLoginRequest: User:qa Pass:qa 
+2023-01-11 12:16:39,292 [70] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 12:16:39,293 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:adw clase:adw 
+2023-01-11 12:17:01,771 [42] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:18:50,516 [42] [WARN ] [GameServer] ：Client[127.0.0.1:58028]] Connected
+2023-01-11 12:19:00,186 [42] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:19:00,187 [42] [WARN ] [GameServer] ：Client[127.0.0.1:58044]] Connected
+2023-01-11 12:19:00,239 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:19:00,240 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:asd Pass:asd 
+2023-01-11 12:19:02,655 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:19:02,655 [7] [INFO ] [GameServer] ：UserLoginRequest: User:asd Pass:asd 
+2023-01-11 12:19:05,314 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 12:19:05,314 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:asd clase:asd 
+2023-01-11 12:21:33,530 [42] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:31:53,114 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58336]] Connected
+2023-01-11 12:31:59,804 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:31:59,804 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58340]] Connected
+2023-01-11 12:31:59,857 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:31:59,858 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 12:32:02,820 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:32:02,820 [8] [INFO ] [GameServer] ：UserRegisterRequest: User:111 Pass:111 
+2023-01-11 12:32:04,004 [80] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:32:04,005 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 12:33:02,543 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:33:16,792 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58373]] Connected
+2023-01-11 12:33:39,113 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:33:39,114 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58376]] Connected
+2023-01-11 12:33:39,165 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:33:39,165 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 12:33:48,013 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 12:33:48,014 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:666 clase:666 
+2023-01-11 12:43:55,051 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:45:00,316 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58543]] Connected
+2023-01-11 12:45:10,041 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:45:10,042 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58550]] Connected
+2023-01-11 12:45:10,095 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:45:10,095 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:333 Pass:333 
+2023-01-11 12:45:12,192 [73] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:45:12,193 [7] [INFO ] [GameServer] ：UserLoginRequest: User:333 Pass:333 
+2023-01-11 12:45:21,941 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:46:17,226 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58574]] Connected
+2023-01-11 12:46:23,480 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:46:23,482 [69] [WARN ] [GameServer] ：Client[127.0.0.1:58576]] Connected
+2023-01-11 12:46:23,539 [69] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 12:46:23,540 [7] [INFO ] [GameServer] ：UserLoginRequest: User:333 Pass:333 
+2023-01-11 12:49:21,939 [55] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 12:49:26,768 [55] [WARN ] [GameServer] ：Client[127.0.0.1:58863]] Connected
+2023-01-11 12:49:28,639 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:01:47,065 [63] [WARN ] [GameServer] ：Client[127.0.0.1:59259]] Connected
+2023-01-11 13:01:53,805 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:01:53,807 [108] [WARN ] [GameServer] ：Client[127.0.0.1:59261]] Connected
+2023-01-11 13:01:53,859 [108] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 13:01:53,860 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:ggg Pass:ggg 
+2023-01-11 13:01:56,108 [109] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 13:01:56,109 [7] [INFO ] [GameServer] ：UserLoginRequest: User:ggg Pass:ggg 
+2023-01-11 13:02:00,745 [108] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:02:00,746 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ggg clase:ggg 
+2023-01-11 13:02:09,165 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:02:09,165 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ggg clase:ggg 
+2023-01-11 13:02:17,100 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:02:17,100 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ggg clase:ggg 
+2023-01-11 13:02:23,380 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:02:36,950 [63] [WARN ] [GameServer] ：Client[127.0.0.1:59287]] Connected
+2023-01-11 13:02:48,547 [63] [WARN ] [GameServer] ：Client[127.0.0.1:59293]] Connected
+2023-01-11 13:02:48,547 [113] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:02:48,605 [113] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 13:02:48,607 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:yyy Pass:yyy 
+2023-01-11 13:02:50,555 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 13:02:50,556 [8] [INFO ] [GameServer] ：UserLoginRequest: User:yyy Pass:yyy 
+2023-01-11 13:02:52,965 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:02:52,966 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:yyy clase:yyy 
+2023-01-11 13:03:02,560 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:03:02,560 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:yyy clase:yyy 
+2023-01-11 13:03:08,974 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:03:08,974 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:666 clase:666 
+2023-01-11 13:03:17,265 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:03:17,265 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:888 clase:888 
+2023-01-11 13:04:48,670 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:05:55,793 [63] [WARN ] [GameServer] ：Client[127.0.0.1:59367]] Connected
+2023-01-11 13:06:02,248 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:06:02,249 [63] [WARN ] [GameServer] ：Client[127.0.0.1:59372]] Connected
+2023-01-11 13:06:02,304 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 13:06:02,305 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:ccc Pass:ccc 
+2023-01-11 13:06:04,483 [120] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 13:06:04,483 [7] [INFO ] [GameServer] ：UserLoginRequest: User:ccc Pass:ccc 
+2023-01-11 13:06:07,653 [121] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:06:07,653 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ccc clase:ccc 
+2023-01-11 13:06:17,194 [120] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:06:17,194 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:sss clase:sss 
+2023-01-11 13:06:22,459 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:57:25,272 [63] [WARN ] [GameServer] ：Client[127.0.0.1:60229]] Connected
+2023-01-11 13:57:33,046 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:57:33,047 [63] [WARN ] [GameServer] ：Client[127.0.0.1:60231]] Connected
+2023-01-11 13:57:33,097 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 13:57:33,097 [7] [INFO ] [GameServer] ：UserLoginRequest: User:ccc Pass:ccc 
+2023-01-11 13:57:47,874 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:57:47,874 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:zzz clase:zzz 
+2023-01-11 13:58:17,097 [63] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:58:17,097 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:zzz clase:zzz 
+2023-01-11 13:59:03,413 [34] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:59:07,186 [50] [WARN ] [GameServer] ：Client[127.0.0.1:60258]] Connected
+2023-01-11 13:59:16,412 [34] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 13:59:16,412 [50] [WARN ] [GameServer] ：Client[127.0.0.1:60261]] Connected
+2023-01-11 13:59:16,462 [50] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 13:59:16,464 [7] [INFO ] [GameServer] ：UserLoginRequest: User:o Pass:o 
+2023-01-11 13:59:20,256 [50] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 13:59:20,257 [8] [INFO ] [GameServer] ：UserRegisterRequest: User:o Pass:o 
+2023-01-11 13:59:21,377 [34] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 13:59:21,378 [7] [INFO ] [GameServer] ：UserLoginRequest: User:o Pass:o 
+2023-01-11 13:59:24,158 [34] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 13:59:24,158 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ooo clase:ooo 
+2023-01-11 13:59:28,672 [34] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 13:59:28,672 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:oiuu clase:oiuu 
+2023-01-11 14:00:16,926 [50] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:00:20,027 [50] [WARN ] [GameServer] ：Client[127.0.0.1:60287]] Connected
+2023-01-11 14:00:27,153 [50] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:00:27,154 [50] [WARN ] [GameServer] ：Client[127.0.0.1:60290]] Connected
+2023-01-11 14:00:27,205 [50] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 14:00:27,205 [7] [INFO ] [GameServer] ：UserLoginRequest: User:ccc Pass:ccc 
+2023-01-11 14:00:32,679 [57] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:05:03,615 [57] [WARN ] [GameServer] ：Client[127.0.0.1:60376]] Connected
+2023-01-11 14:05:10,050 [87] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:05:10,050 [57] [WARN ] [GameServer] ：Client[127.0.0.1:60380]] Connected
+2023-01-11 14:05:10,101 [57] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:05:10,102 [7] [INFO ] [GameServer] ：UserLoginRequest: User:p Pass:p 
+2023-01-11 14:05:12,453 [87] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:05:12,453 [8] [INFO ] [GameServer] ：UserRegisterRequest: User:p Pass:p 
+2023-01-11 14:05:13,241 [88] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:05:13,241 [7] [INFO ] [GameServer] ：UserLoginRequest: User:p Pass:p 
+2023-01-11 14:05:15,679 [87] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:05:15,681 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ppp clase:ppp 
+2023-01-11 14:05:20,030 [57] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:05:20,031 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ooo clase:ooo 
+2023-01-11 14:05:30,931 [57] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:05:30,931 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:yyy clase:yyy 
+2023-01-11 14:05:37,644 [57] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:05:37,644 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:yyy clase:yyy 
+2023-01-11 14:05:49,890 [90] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:05:52,766 [90] [WARN ] [GameServer] ：Client[127.0.0.1:60398]] Connected
+2023-01-11 14:05:59,801 [92] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:05:59,801 [90] [WARN ] [GameServer] ：Client[127.0.0.1:60400]] Connected
+2023-01-11 14:05:59,850 [90] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:05:59,851 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:t Pass:t 
+2023-01-11 14:06:01,627 [92] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:06:01,627 [8] [INFO ] [GameServer] ：UserLoginRequest: User:t Pass:t 
+2023-01-11 14:06:04,508 [90] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2023-01-11 14:06:04,509 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:t clase:t 
+2023-01-11 14:06:08,945 [91] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:06:08,946 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ty clase:ty 
+2023-01-11 14:07:34,859 [90] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 14:07:34,859 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:p][] clase:p][] 
+2023-01-11 14:09:46,263 [90] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:16:25,378 [90] [WARN ] [GameServer] ：Client[127.0.0.1:60673]] Connected
+2023-01-11 14:16:33,066 [90] [WARN ] [GameServer] ：Client[127.0.0.1:60678]] Connected
+2023-01-11 14:16:33,066 [66] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:16:33,117 [66] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:16:33,117 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:a Pass:a 
+2023-01-11 14:16:35,205 [67] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:16:35,205 [7] [INFO ] [GameServer] ：UserLoginRequest: User:a Pass:a 
+2023-01-11 14:16:42,680 [90] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:16:42,681 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:aaa clase:aaa 
+2023-01-11 14:16:54,066 [90] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:16:54,067 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:bbb clase:bbb 
+2023-01-11 14:17:06,136 [90] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:17:26,562 [5] [WARN ] [GameServer] ：Client[127.0.0.1:60720]] Connected
+2023-01-11 14:17:34,986 [5] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:17:34,987 [5] [WARN ] [GameServer] ：Client[127.0.0.1:60725]] Connected
+2023-01-11 14:17:35,037 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:17:35,038 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:v Pass:v 
+2023-01-11 14:17:36,741 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:17:36,742 [7] [INFO ] [GameServer] ：UserLoginRequest: User:v Pass:v 
+2023-01-11 14:17:41,021 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:17:41,021 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:vvv clase:vvv 
+2023-01-11 14:17:54,865 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:17:54,865 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:vvv clase:vvv 
+2023-01-11 14:18:02,481 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:18:10,873 [17] [WARN ] [GameServer] ：Client[127.0.0.1:60739]] Connected
+2023-01-11 14:18:19,669 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:18:19,670 [17] [WARN ] [GameServer] ：Client[127.0.0.1:60743]] Connected
+2023-01-11 14:18:19,721 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:18:19,722 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:b Pass:b 
+2023-01-11 14:18:21,418 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:18:21,418 [7] [INFO ] [GameServer] ：UserLoginRequest: User:b Pass:b 
+2023-01-11 14:18:30,348 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:18:30,348 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:bbb clase:bbb 
+2023-01-11 14:19:33,912 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:19:33,912 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123 clase:123 
+2023-01-11 14:21:05,567 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:21:09,970 [17] [WARN ] [GameServer] ：Client[127.0.0.1:60893]] Connected
+2023-01-11 14:21:33,500 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:21:58,430 [17] [WARN ] [GameServer] ：Client[127.0.0.1:60910]] Connected
+2023-01-11 14:22:04,318 [17] [WARN ] [GameServer] ：Client[127.0.0.1:60914]] Connected
+2023-01-11 14:22:04,318 [84] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:22:04,372 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:22:04,372 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:m Pass:m 
+2023-01-11 14:22:05,862 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:22:05,862 [7] [INFO ] [GameServer] ：UserLoginRequest: User:m Pass:m 
+2023-01-11 14:22:09,267 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:22:09,268 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:mmm clase:mmm 
+2023-01-11 14:22:12,207 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:22:12,208 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:bbb clase:bbb 
+2023-01-11 14:22:17,273 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:22:17,274 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:bbb clase:bbb 
+2023-01-11 14:22:21,780 [84] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:22:26,980 [17] [WARN ] [GameServer] ：Client[127.0.0.1:60928]] Connected
+2023-01-11 14:22:33,368 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:22:33,369 [84] [WARN ] [GameServer] ：Client[127.0.0.1:60939]] Connected
+2023-01-11 14:22:33,420 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 14:22:33,421 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:as Pass:as 
+2023-01-11 14:22:35,272 [79] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 14:22:35,273 [7] [INFO ] [GameServer] ：UserLoginRequest: User:as Pass:as 
+2023-01-11 14:22:38,075 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:22:38,075 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:asd clase:asd 
+2023-01-11 14:22:43,203 [80] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:22:43,203 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qwe clase:qwe 
+2023-01-11 14:23:02,122 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:23:02,122 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qwe clase:qwe 
+2023-01-11 14:23:12,195 [77] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:23:12,196 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qwe clase:qwe 
+2023-01-11 14:23:17,602 [77] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:24:08,166 [77] [WARN ] [GameServer] ：Client[127.0.0.1:61049]] Connected
+2023-01-11 14:24:15,520 [77] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 14:24:15,521 [77] [WARN ] [GameServer] ：Client[127.0.0.1:61056]] Connected
+2023-01-11 14:24:15,573 [77] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 14:24:15,573 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:at Pass:at 
+2023-01-11 14:24:17,059 [77] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 14:24:17,059 [8] [INFO ] [GameServer] ：UserLoginRequest: User:at Pass:at 
+2023-01-11 14:24:20,726 [59] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 14:24:20,726 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:at clase:at 
+2023-01-11 14:24:26,610 [77] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 14:24:26,610 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:att clase:att 
+2023-01-11 14:24:36,780 [77] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 14:24:36,780 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:atat clase:atat 
+2023-01-11 14:25:52,510 [77] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:02:24,167 [77] [WARN ] [GameServer] ：Client[127.0.0.1:62525]] Connected
+2023-01-11 15:02:31,858 [77] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:02:31,859 [77] [WARN ] [GameServer] ：Client[127.0.0.1:62529]] Connected
+2023-01-11 15:02:31,911 [77] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:02:31,912 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:ad Pass:ad 
+2023-01-11 15:02:33,717 [135] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:02:33,718 [7] [INFO ] [GameServer] ：UserLoginRequest: User:ad Pass:ad 
+2023-01-11 15:02:40,014 [135] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:02:40,014 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123 clase:123 
+2023-01-11 15:02:46,936 [135] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:04:48,521 [135] [WARN ] [GameServer] ：Client[127.0.0.1:62592]] Connected
+2023-01-11 15:04:57,258 [135] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:04:57,260 [135] [WARN ] [GameServer] ：Client[127.0.0.1:62597]] Connected
+2023-01-11 15:04:57,315 [135] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:04:57,316 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:qwe Pass:qwe 
+2023-01-11 15:05:03,522 [135] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:05:03,523 [7] [INFO ] [GameServer] ：UserLoginRequest: User:qwe Pass:qwe 
+2023-01-11 15:05:06,075 [135] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:05:06,076 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123 clase:123 
+2023-01-11 15:05:14,003 [135] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:05:14,004 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:das clase:das 
+2023-01-11 15:05:20,575 [135] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2023-01-11 15:05:20,576 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:dasda clase:dasda 
+2023-01-11 15:05:35,049 [129] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:05:35,049 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:dasd clase:dasd 
+2023-01-11 15:05:50,654 [129] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:06:56,032 [127] [WARN ] [GameServer] ：Client[127.0.0.1:62666]] Connected
+2023-01-11 15:07:01,792 [127] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:07:01,793 [127] [WARN ] [GameServer] ：Client[127.0.0.1:62671]] Connected
+2023-01-11 15:07:01,851 [127] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:07:01,852 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:qr Pass:qr 
+2023-01-11 15:07:03,585 [123] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:07:03,585 [7] [INFO ] [GameServer] ：UserLoginRequest: User:qr Pass:qr 
+2023-01-11 15:07:20,786 [127] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:15:12,979 [127] [WARN ] [GameServer] ：Client[127.0.0.1:62879]] Connected
+2023-01-11 15:15:23,960 [127] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:15:23,961 [127] [WARN ] [GameServer] ：Client[127.0.0.1:62885]] Connected
+2023-01-11 15:15:24,019 [127] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:15:24,020 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:fs Pass:fs 
+2023-01-11 15:15:25,990 [42] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:15:25,990 [7] [INFO ] [GameServer] ：UserLoginRequest: User:fs Pass:fs 
+2023-01-11 15:15:31,710 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 15:15:31,710 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:af clase:af 
+2023-01-11 15:15:42,229 [127] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:15:42,229 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:afaf clase:afaf 
+2023-01-11 15:15:55,793 [127] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2023-01-11 15:15:55,794 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:afasf clase:afasf 
+2023-01-11 15:16:50,551 [127] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:16:57,370 [127] [WARN ] [GameServer] ：Client[127.0.0.1:62930]] Connected
+2023-01-11 15:17:10,334 [127] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:17:10,335 [127] [WARN ] [GameServer] ：Client[127.0.0.1:62941]] Connected
+2023-01-11 15:17:10,390 [127] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:17:10,390 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:ty Pass:ty 
+2023-01-11 15:17:12,063 [127] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:17:12,063 [7] [INFO ] [GameServer] ：UserLoginRequest: User:ty Pass:ty 
+2023-01-11 15:17:14,686 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 15:17:14,686 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ey clase:ey 
+2023-01-11 15:17:18,738 [127] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2023-01-11 15:17:18,739 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ertet clase:ertet 
+2023-01-11 15:17:27,867 [127] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:17:27,867 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ertert clase:ertert 
+2023-01-11 15:19:41,935 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:19:48,845 [52] [WARN ] [GameServer] ：Client[127.0.0.1:63038]] Connected
+2023-01-11 15:19:55,065 [52] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:19:55,066 [52] [WARN ] [GameServer] ：Client[127.0.0.1:63043]] Connected
+2023-01-11 15:19:55,117 [52] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:19:55,117 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:19:59,904 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:19:59,904 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123 clase:123 
+2023-01-11 15:24:17,250 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:24:26,415 [86] [WARN ] [GameServer] ：Client[127.0.0.1:63183]] Connected
+2023-01-11 15:24:37,739 [86] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:24:37,741 [86] [WARN ] [GameServer] ：Client[127.0.0.1:63187]] Connected
+2023-01-11 15:24:37,795 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2023-01-11 15:24:37,796 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:24:39,708 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:24:39,709 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:27:13,708 [86] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:27:57,073 [86] [WARN ] [GameServer] ：Client[127.0.0.1:63295]] Connected
+2023-01-11 15:28:03,033 [86] [WARN ] [GameServer] ：Client[127.0.0.1:63304]] Connected
+2023-01-11 15:28:03,033 [78] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:28:03,086 [78] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:28:03,086 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:28:10,267 [78] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:30:33,064 [78] [WARN ] [GameServer] ：Client[127.0.0.1:63422]] Connected
+2023-01-11 15:30:39,345 [78] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:30:39,345 [78] [WARN ] [GameServer] ：Client[127.0.0.1:63427]] Connected
+2023-01-11 15:30:39,396 [78] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2023-01-11 15:30:39,397 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:30:40,877 [78] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:30:40,878 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:30:48,846 [78] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:30:48,847 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123 clase:123 
+2023-01-11 15:31:13,773 [78] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:31:19,098 [78] [WARN ] [GameServer] ：Client[127.0.0.1:63448]] Connected
+2023-01-11 15:31:24,963 [78] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:31:24,964 [78] [WARN ] [GameServer] ：Client[127.0.0.1:63450]] Connected
+2023-01-11 15:31:25,020 [78] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:31:25,020 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:34:11,415 [78] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:36:26,973 [26] [WARN ] [GameServer] ：Client[127.0.0.1:63592]] Connected
+2023-01-11 15:36:34,986 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:36:34,987 [26] [WARN ] [GameServer] ：Client[127.0.0.1:63597]] Connected
+2023-01-11 15:36:35,038 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:36:35,039 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:36:40,214 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:40:52,123 [26] [WARN ] [GameServer] ：Client[127.0.0.1:63707]] Connected
+2023-01-11 15:40:58,399 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:40:58,400 [26] [WARN ] [GameServer] ：Client[127.0.0.1:63712]] Connected
+2023-01-11 15:40:58,454 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 15:40:58,454 [7] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 15:41:05,372 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:41:05,372 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:123 clase:123 
+2023-01-11 15:41:12,760 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:41:15,778 [26] [WARN ] [GameServer] ：Client[127.0.0.1:63733]] Connected
+2023-01-11 15:41:25,392 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:41:25,393 [26] [WARN ] [GameServer] ：Client[127.0.0.1:63740]] Connected
+2023-01-11 15:41:25,445 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:41:25,445 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:qc Pass:qc 
+2023-01-11 15:41:27,224 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:41:27,225 [7] [INFO ] [GameServer] ：UserLoginRequest: User:qc Pass:qc 
+2023-01-11 15:41:30,810 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:41:30,810 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qcq clase:qcq 
+2023-01-11 15:41:35,680 [94] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:41:35,681 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qcqc clase:qcqc 
+2023-01-11 15:41:39,823 [94] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:41:39,823 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qcqc clase:qcqc 
+2023-01-11 15:41:48,051 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:41:48,052 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:asd clase:asd 
+2023-01-11 15:41:58,151 [94] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:42:01,643 [26] [WARN ] [GameServer] ：Client[127.0.0.1:63755]] Connected
+2023-01-11 15:42:13,787 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:42:13,788 [26] [WARN ] [GameServer] ：Client[127.0.0.1:63760]] Connected
+2023-01-11 15:42:13,841 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:42:13,841 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:ew Pass:ew 
+2023-01-11 15:42:15,700 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:42:15,701 [7] [INFO ] [GameServer] ：UserLoginRequest: User:ew Pass:ew 
+2023-01-11 15:42:18,455 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 15:42:18,455 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:ew clase:ew 
+2023-01-11 15:42:21,608 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 15:42:21,609 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qw clase:qw 
+2023-01-11 15:42:25,614 [61] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:42:25,615 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:qwe clase:qwe 
+2023-01-11 15:42:45,032 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 15:42:45,033 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:asd clase:asd 
+2023-01-11 15:42:48,538 [30] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:43:38,412 [30] [WARN ] [GameServer] ：Client[127.0.0.1:63794]] Connected
+2023-01-11 15:43:43,700 [30] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 15:43:43,701 [30] [WARN ] [GameServer] ：Client[127.0.0.1:63795]] Connected
+2023-01-11 15:43:43,753 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 15:43:43,754 [7] [INFO ] [GameServer] ：UserLoginRequest: User:qc Pass:qc 
+2023-01-11 15:43:52,339 [62] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:13:48,271 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-11 16:13:49,298 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-11 16:13:49,481 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:13:49,485 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:13:49,485 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:13:49,486 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:13:49,486 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:13:49,486 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:13:50,361 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:13:51,361 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:13:51,373 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-11 16:13:52,185 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56153]] Connected
+2023-01-11 16:13:58,519 [13] [WARN ] [GameServer] ：Client[127.0.0.1:56170]] Connected
+2023-01-11 16:13:58,523 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:13:58,580 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 16:13:58,725 [5] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 16:14:09,126 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:21:14,334 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-11 16:21:15,621 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-11 16:21:15,702 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:21:15,702 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:21:15,704 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:21:15,704 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:21:15,704 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:21:15,705 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:21:16,660 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:21:17,660 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:21:17,703 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-11 16:21:24,237 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56920]] Connected
+2023-01-11 16:21:38,719 [14] [WARN ] [GameServer] ：Client[127.0.0.1:56949]] Connected
+2023-01-11 16:21:38,722 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:21:38,779 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:21:38,920 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:b Pass:b 
+2023-01-11 16:21:46,628 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:21:46,628 [6] [INFO ] [GameServer] ：UserRegisterRequest: User:n Pass:n 
+2023-01-11 16:21:49,512 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:21:49,515 [5] [INFO ] [GameServer] ：UserLoginRequest: User:n Pass:n 
+2023-01-11 16:21:53,362 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 16:21:53,365 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:nnn clase:nnn 
+2023-01-11 16:21:55,739 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 16:21:55,739 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:nnn clase:nnn 
+2023-01-11 16:21:57,928 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 16:21:57,928 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:nnn clase:nnn 
+2023-01-11 16:22:01,035 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 16:22:01,035 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:nnn clase:nnn 
+2023-01-11 16:22:04,251 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:22:04,251 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:vn clase:vn 
+2023-01-11 16:22:08,826 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:22:08,826 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:vn clase:vn 
+2023-01-11 16:22:11,103 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 16:22:11,103 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:vnn clase:vnn 
+2023-01-11 16:22:24,232 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:22:24,233 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:vn clase:vn 
+2023-01-11 16:22:27,021 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 16:22:27,022 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:bnv clase:bnv 
+2023-01-11 16:22:30,310 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:22:35,506 [16] [WARN ] [GameServer] ：Client[127.0.0.1:57120]] Connected
+2023-01-11 16:22:44,345 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:22:44,346 [16] [WARN ] [GameServer] ：Client[127.0.0.1:57143]] Connected
+2023-01-11 16:22:44,404 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:22:44,404 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:m Pass:m 
+2023-01-11 16:22:49,720 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:22:49,721 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:z Pass:z 
+2023-01-11 16:22:51,816 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:22:51,817 [6] [INFO ] [GameServer] ：UserLoginRequest: User:z Pass:z 
+2023-01-11 16:22:55,560 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:22:55,561 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:vn clase:vn 
+2023-01-11 16:22:58,775 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:22:58,776 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:zc clase:zc 
+2023-01-11 16:23:02,191 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-01-11 16:23:02,191 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:zc clase:zc 
+2023-01-11 16:23:04,932 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 16:23:04,933 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:czc clase:czc 
+2023-01-11 16:23:10,558 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2023-01-11 16:23:10,559 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:zxc clase:zxc 
+2023-01-11 16:23:18,533 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2023-01-11 16:23:18,534 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: name:czxc clase:czxc 
+2023-01-11 16:27:42,153 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-11 16:27:43,318 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-11 16:27:43,411 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:27:43,412 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:27:43,413 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:27:43,413 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:27:43,413 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:27:43,414 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:27:44,365 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:27:45,357 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:27:45,386 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-11 16:27:50,129 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57805]] Connected
+2023-01-11 16:27:56,349 [14] [WARN ] [GameServer] ：Client[127.0.0.1:57820]] Connected
+2023-01-11 16:27:56,353 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:27:56,407 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 16:27:56,543 [5] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 16:27:56,828 [5] [ERROR] [GameServer] ：Message handler exception:, 在应用程序配置文件中找不到名为“ExtremeWorldEntities”的连接字符串。, EntityFramework,    在 System.Data.Entity.Internal.LazyInternalConnection.get_ConnectionHasModel()
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 GameServer.Services.UserSerevice.Ret_Login(NetConnection`1 client, UserLoginRequest request) 位置 D:\JSJ_MMORPG\SelfProject\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 59
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\JSJ_MMORPG\SelfProject\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-01-11 16:28:00,737 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:28:50,554 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-11 16:28:51,719 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-11 16:28:51,802 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:28:51,802 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:28:51,803 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:28:51,804 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:28:51,804 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:28:51,805 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:28:52,759 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:28:53,758 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:28:53,790 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-11 16:28:58,931 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57919]] Connected
+2023-01-11 16:29:04,842 [14] [WARN ] [GameServer] ：Client[127.0.0.1:57930]] Connected
+2023-01-11 16:29:04,846 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:29:04,897 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 16:29:05,035 [5] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 16:29:05,241 [5] [ERROR] [GameServer] ：Message handler exception:, 在应用程序配置文件中找不到名为“ExtremeWorldEntities”的连接字符串。, EntityFramework,    在 System.Data.Entity.Internal.LazyInternalConnection.get_ConnectionHasModel()
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 GameServer.Services.UserSerevice.Ret_Login(NetConnection`1 client, UserLoginRequest request) 位置 D:\JSJ_MMORPG\SelfProject\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 59
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\JSJ_MMORPG\SelfProject\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-01-11 16:29:11,082 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:31:52,409 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-11 16:31:53,585 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-11 16:31:53,679 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:31:53,679 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:31:53,682 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:31:53,683 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:31:53,683 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:31:53,688 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:31:54,629 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:31:55,627 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:31:55,650 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-11 16:31:58,545 [3] [WARN ] [GameServer] ：Client[127.0.0.1:58201]] Connected
+2023-01-11 16:32:04,307 [14] [WARN ] [GameServer] ：Client[127.0.0.1:58211]] Connected
+2023-01-11 16:32:04,310 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:32:04,362 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 16:32:04,503 [5] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 16:32:04,711 [5] [ERROR] [GameServer] ：Message handler exception:, 在应用程序配置文件中找不到名为“ExtremeWorldEntities”的连接字符串。, EntityFramework,    在 System.Data.Entity.Internal.LazyInternalConnection.get_ConnectionHasModel()
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 GameServer.Services.UserSerevice.Ret_Login(NetConnection`1 client, UserLoginRequest request) 位置 D:\JSJ_MMORPG\SelfProject\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 59
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\JSJ_MMORPG\SelfProject\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-01-11 16:32:06,861 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:32:53,752 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-11 16:32:55,049 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-11 16:32:55,116 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:32:55,117 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:32:55,117 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:32:55,117 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:32:55,117 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:32:55,117 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:32:56,093 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:32:57,092 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 16:32:57,121 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-11 16:32:58,734 [3] [WARN ] [GameServer] ：Client[127.0.0.1:58315]] Connected
+2023-01-11 16:33:05,493 [14] [WARN ] [GameServer] ：Client[127.0.0.1:58331]] Connected
+2023-01-11 16:33:05,505 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 16:33:05,549 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 16:33:05,680 [5] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 16:33:11,059 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 18:40:57,936 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-11 18:41:02,484 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-11 18:41:02,604 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 18:41:02,604 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 18:41:02,604 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 18:41:02,604 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 18:41:02,606 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 18:41:02,606 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 18:41:05,542 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 18:41:06,542 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-11 18:41:06,545 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-11 18:41:24,226 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51129]] Connected
+2023-01-11 18:41:31,927 [14] [WARN ] [GameServer] ：Client[127.0.0.1:51149]] Connected
+2023-01-11 18:41:31,930 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 18:41:32,219 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 18:41:33,249 [5] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 
+2023-01-11 18:42:05,717 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 18:45:46,534 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51649]] Connected
+2023-01-11 18:45:52,410 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-11 18:45:52,413 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51677]] Connected
+2023-01-11 18:45:52,474 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-11 18:45:52,475 [5] [INFO ] [GameServer] ：UserLoginRequest: User:111 Pass:111 

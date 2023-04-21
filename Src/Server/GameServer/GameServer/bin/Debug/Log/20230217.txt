@@ -1,0 +1,1212 @@
+
+2023-02-17 20:40:32,240 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-17 20:40:32,518 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-17 20:40:32,961 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-17 20:40:32,977 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-17 20:40:32,981 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-17 20:40:32,984 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-17 20:40:32,987 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-17 20:40:33,108 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:40:33,108 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:40:33,116 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:40:33,119 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:40:33,143 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:40:33,143 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:40:34,524 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:40:38,524 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:40:38,584 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-17 20:40:42,841 [11] [WARN ] [GameServer] ：Client[127.0.0.1:58471]] Connected
+2023-02-17 20:40:42,943 [11] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:40:43,062 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-17 20:40:45,456 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:40:45,459 [6] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-17 20:40:45,629 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-17 20:40:45,630 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:40:46,375 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:40:46,379 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:40:46,762 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:40:46,762 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5120,4000,820),dir:(98,20,0),spd:300
+2023-02-17 20:40:46,898 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:40:46,898 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5156,4006,820),dir:(92,39,0),spd:300
+2023-02-17 20:40:46,992 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:40:46,993 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5186,4016,820),dir:(84,55,0),spd:300
+2023-02-17 20:40:47,113 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:40:47,113 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5216,4034,820),dir:(71,71,0),spd:300
+2023-02-17 20:40:47,169 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:40:47,170 [13] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(5228,4046,820),dir:(71,71,0),spd:0
+2023-02-17 20:40:47,239 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:40:47,239 [14] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5228,4046,820),dir:(56,83,0),spd:0
+2023-02-17 20:40:47,874 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-17 20:40:47,876 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-17 20:40:47,876 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:40:47,879 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:41:08,788 [4] [INFO ] [GameServer] ：Map:2 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-02-17 20:41:08,790 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:2
+2023-02-17 20:41:08,870 [4] [INFO ] [GameServer] ：Map:2 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-02-17 20:41:08,870 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:3
+2023-02-17 20:41:08,871 [4] [INFO ] [GameServer] ：Map:2 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-02-17 20:41:08,871 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:4
+2023-02-17 20:41:08,871 [4] [INFO ] [GameServer] ：Map:2 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-02-17 20:41:08,872 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:5
+2023-02-17 20:41:08,872 [4] [INFO ] [GameServer] ：Map:3 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-02-17 20:41:08,873 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:6
+2023-02-17 20:41:08,874 [4] [INFO ] [GameServer] ：Map:3 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-02-17 20:41:08,875 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:7
+2023-02-17 20:41:08,875 [4] [INFO ] [GameServer] ：Map:3 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-02-17 20:41:08,876 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:8
+2023-02-17 20:41:08,876 [4] [INFO ] [GameServer] ：Map:3 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-02-17 20:41:08,877 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:9
+2023-02-17 20:42:42,475 [3] [WARN ] [GameServer] ：Client[127.0.0.1:58660]] Connected
+2023-02-17 20:42:42,616 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:42:42,617 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-17 20:42:44,854 [3] [WARN ] [GameServer] ：Client[127.0.0.1:58666]] Connected
+2023-02-17 20:42:44,953 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:42:44,953 [5] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-02-17 20:42:46,664 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:42:46,665 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-17 20:42:46,666 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-17 20:42:46,666 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:42:47,664 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:42:47,666 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:10 Evt:MoveFwd Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:42:48,715 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:42:48,716 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:10 Evt:Idle Entity:(10:pos:(5318,4000,820),dir:(100,0,0),spd:0
+2023-02-17 20:42:49,750 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:42:49,751 [8] [INFO ] [GameServer] ：Recv_GameEnter: characterID:2 Name:312 Map:1
+2023-02-17 20:42:49,831 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2023-02-17 20:42:49,833 [8] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:42:49,834 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:42:49,835 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:42:50,783 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:42:50,784 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(98,18,0),spd:0
+2023-02-17 20:42:50,785 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:42:50,897 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:42:50,898 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(93,36,0),spd:0
+2023-02-17 20:42:50,899 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:42:51,016 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:42:51,018 [13] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(85,53,0),spd:0
+2023-02-17 20:42:51,019 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:42:57,696 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2023-02-17 20:42:57,701 [5] [INFO ] [GameServer] ：Recv_FriendAddRequest: FromId:1 FromName:123 ToId:2 ToName:
+2023-02-17 20:42:57,702 [5] [INFO ] [GameServer] ：ForwardRequest: FromId:1 FromName:123 ToId:2 ToName:
+2023-02-17 20:42:57,703 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:42:59,048 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2023-02-17 20:42:59,063 [5] [INFO ] [GameServer] ：Recv_FriendAddResponse: character:2 Result:Success FromId:1 ToId:2
+2023-02-17 20:42:59,235 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:42:59,243 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:42:59,245 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:42:59,254 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:42:59,254 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:42:59,255 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:43:08,229 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:43:08,233 [6] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:43:08,235 [6] [INFO ] [GameServer] ：ForwardTeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:43:08,235 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:43:10,813 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2023-02-17 20:43:10,830 [7] [INFO ] [GameServer] ：Recv_FriendAddResponse: character:2 Result:Success FromId:1 ToId:2
+2023-02-17 20:43:10,854 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:43:10,871 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:43:10,871 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:43:10,875 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 0:1676637790
+2023-02-17 20:43:10,925 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:43:10,937 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:43:10,938 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:43:10,941 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 0:1676637790
+2023-02-17 20:43:23,680 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:43:23,681 [5] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:43:23,681 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:43:23,682 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:43:23,683 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:43:23,683 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637790:1676637790
+2023-02-17 20:43:27,267 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:43:27,268 [5] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:2 FromName:312 ToId:1 ToName:123
+2023-02-17 20:43:27,268 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:43:27,269 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:43:27,269 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:43:27,269 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676637790:1676637790
+2023-02-17 20:44:15,304 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-17 20:44:15,392 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-17 20:44:15,959 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-17 20:44:15,967 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-17 20:44:15,968 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-17 20:44:15,968 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-17 20:44:15,972 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-17 20:44:16,051 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:44:16,052 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:44:16,053 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:44:16,054 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:44:16,056 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:44:16,056 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:44:18,491 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:44:19,491 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-17 20:44:19,551 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-17 20:44:43,048 [3] [WARN ] [GameServer] ：Client[127.0.0.1:58940]] Connected
+2023-02-17 20:44:43,134 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:44:43,263 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-17 20:44:45,667 [3] [WARN ] [GameServer] ：Client[127.0.0.1:58945]] Connected
+2023-02-17 20:44:45,775 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:44:45,776 [5] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-02-17 20:44:47,296 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:44:47,298 [6] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-17 20:44:47,512 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status0
+2023-02-17 20:44:47,521 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-17 20:44:47,522 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:48,061 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:44:48,068 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:44:49,752 [4] [INFO ] [GameServer] ：Map:2 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-02-17 20:44:49,754 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:2
+2023-02-17 20:44:49,754 [4] [INFO ] [GameServer] ：Map:2 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-02-17 20:44:49,754 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:3
+2023-02-17 20:44:49,755 [4] [INFO ] [GameServer] ：Map:2 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-02-17 20:44:49,755 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:4
+2023-02-17 20:44:49,755 [4] [INFO ] [GameServer] ：Map:2 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-02-17 20:44:49,755 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:2 monsterId:5
+2023-02-17 20:44:49,756 [4] [INFO ] [GameServer] ：Map:3 Spawn:[1 Monster:1001 lv:1] AtPoint:1
+2023-02-17 20:44:49,756 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:6
+2023-02-17 20:44:49,756 [4] [INFO ] [GameServer] ：Map:3 Spawn:[2 Monster:1002 lv:1] AtPoint:2
+2023-02-17 20:44:49,756 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:7
+2023-02-17 20:44:49,757 [4] [INFO ] [GameServer] ：Map:3 Spawn:[3 Monster:1003 lv:1] AtPoint:3
+2023-02-17 20:44:49,757 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:8
+2023-02-17 20:44:49,759 [4] [INFO ] [GameServer] ：Map:3 Spawn:[4 Monster:1005 lv:1] AtPoint:4
+2023-02-17 20:44:49,759 [4] [INFO ] [GameServer] ：MonsterEnter: mapId:3 monsterId:9
+2023-02-17 20:44:49,904 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:44:49,905 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(5384,4000,820),dir:(100,0,0),spd:0
+2023-02-17 20:44:50,425 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:44:50,426 [8] [INFO ] [GameServer] ：Recv_GameEnter: characterID:2 Name:312 Map:1
+2023-02-17 20:44:50,511 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:44:50,512 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2023-02-17 20:44:50,516 [8] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:44:50,517 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:50,519 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:44:50,519 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:44:50,520 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:44:50,521 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:44:50,521 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:44:51,542 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:44:51,543 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(98,19,0),spd:0
+2023-02-17 20:44:51,544 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:51,544 [9] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:44:51,544 [9] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:44:51,664 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:44:51,665 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(93,38,0),spd:0
+2023-02-17 20:44:51,666 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:51,782 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:44:51,792 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:10 Evt:MoveFwd Entity:(10:pos:(5000,4000,820),dir:(93,38,0),spd:300
+2023-02-17 20:44:51,793 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:51,814 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:44:51,814 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:10 Evt:None Entity:(10:pos:(5006,4002,820),dir:(84,55,0),spd:300
+2023-02-17 20:44:51,815 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:51,945 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:44:51,945 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:10 Evt:Idle Entity:(10:pos:(5046,4026,820),dir:(84,55,0),spd:0
+2023-02-17 20:44:51,946 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:56,344 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:44:56,346 [5] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:2 FromName:312 ToId:1 ToName:123
+2023-02-17 20:44:56,346 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequest: FromId:2 FromName:312 ToId:1 ToName:123
+2023-02-17 20:44:56,346 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:58,498 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2023-02-17 20:44:58,506 [7] [INFO ] [GameServer] ：Recv_FriendAddResponse: character:1 Result:Success FromId:2 ToId:1
+2023-02-17 20:44:58,518 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:44:58,541 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:44:58,574 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:44:58,588 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 0:1676637898
+2023-02-17 20:44:58,614 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:44:58,623 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:44:58,632 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:44:58,638 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 0:1676637898
+2023-02-17 20:45:37,890 [13] [INFO ] [GameServer] ：CharacterLeave： characterID:2:312
+2023-02-17 20:45:37,907 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2023-02-17 20:45:37,908 [13] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:2:312
+2023-02-17 20:45:37,911 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:45:37,911 [13] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:45:37,913 [13] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status0
+2023-02-17 20:45:37,915 [13] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:45:37,917 [13] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:2:312
+2023-02-17 20:45:37,927 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:46:58,764 [16] [WARN ] [GameServer] ：Client[127.0.0.1:59157]] Connected
+2023-02-17 20:46:58,835 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:46:58,836 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-17 20:47:01,159 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:47:01,159 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-17 20:47:01,160 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status0
+2023-02-17 20:47:01,160 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-17 20:47:01,160 [5] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:1
+2023-02-17 20:47:01,160 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:01,161 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:01,161 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:01,540 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:47:01,541 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5384,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:47:01,541 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:01,572 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:47:01,573 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:47:01,573 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:01,573 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:02,490 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:47:02,492 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(5636,4000,820),dir:(100,0,0),spd:0
+2023-02-17 20:47:02,497 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:02,568 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:47:02,569 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:11 Evt:Idle Entity:(11:pos:(5258,4000,820),dir:(100,0,0),spd:0
+2023-02-17 20:47:02,571 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:02,573 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:04,140 [16] [WARN ] [GameServer] ：Client[127.0.0.1:59164]] Connected
+2023-02-17 20:47:04,230 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:47:04,231 [10] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-02-17 20:47:06,219 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:47:06,219 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:2 Name:312 Map:1
+2023-02-17 20:47:06,219 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:06,220 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2023-02-17 20:47:06,220 [5] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:47:06,220 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:06,221 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:06,221 [5] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:47:06,221 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:06,221 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:06,222 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:06,222 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:06,222 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:06,222 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:07,010 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:47:07,012 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(98,20,0),spd:0
+2023-02-17 20:47:07,013 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,013 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:07,014 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,014 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:07,014 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:07,101 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:47:07,102 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(92,39,0),spd:0
+2023-02-17 20:47:07,102 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,103 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:07,103 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,268 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:47:07,269 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(83,55,0),spd:0
+2023-02-17 20:47:07,269 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,269 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:07,270 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,369 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:47:07,370 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:12 Evt:MoveFwd Entity:(12:pos:(5000,4000,820),dir:(83,55,0),spd:300
+2023-02-17 20:47:07,370 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,371 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:07,371 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,553 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:47:07,554 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:12 Evt:Idle Entity:(12:pos:(5040,4024,820),dir:(83,55,0),spd:0
+2023-02-17 20:47:07,554 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:07,555 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:07,555 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:13,030 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:47:13,030 [12] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:47:13,031 [12] [INFO ] [GameServer] ：ForwardTeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:47:13,031 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:13,031 [12] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:13,031 [12] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:21,028 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2023-02-17 20:47:21,038 [5] [INFO ] [GameServer] ：Recv_FriendAddResponse: character:2 Result:Success FromId:1 ToId:2
+2023-02-17 20:47:21,041 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:21,043 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:21,073 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:21,086 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 0:1676638041
+2023-02-17 20:47:21,093 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:21,106 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:21,125 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:21,128 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 0:1676638041
+2023-02-17 20:47:40,365 [17] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-17 20:47:40,380 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-17 20:47:40,384 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:47:40,393 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:40,395 [17] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:40,397 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:47:40,403 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:1:123
+2023-02-17 20:47:40,414 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:40,431 [17] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:40,433 [17] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status0
+2023-02-17 20:47:40,447 [17] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:40,463 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:47:49,828 [17] [WARN ] [GameServer] ：Client[127.0.0.1:59226]] Connected
+2023-02-17 20:47:49,913 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:47:49,913 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-17 20:47:51,556 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:47:51,557 [6] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-17 20:47:51,557 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:51,557 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-17 20:47:51,557 [6] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:1
+2023-02-17 20:47:51,558 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:51,558 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:51,558 [6] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:1
+2023-02-17 20:47:51,559 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:51,559 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:51,559 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:51,559 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:51,560 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:51,560 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:51,562 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:52,170 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-17 20:47:52,170 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveBack Entity:(1:pos:(5636,4000,820),dir:(100,0,0),spd:-300
+2023-02-17 20:47:52,171 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:52,171 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:52,171 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:52,172 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:52,173 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:52,197 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-17 20:47:52,199 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:13 Evt:MoveBack Entity:(13:pos:(5000,4000,820),dir:(100,0,0),spd:-300
+2023-02-17 20:47:52,199 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:52,200 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:52,200 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:52,201 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:52,568 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-17 20:47:52,569 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5528,4000,820),dir:(98,18,0),spd:-300
+2023-02-17 20:47:52,569 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:52,569 [9] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:52,570 [9] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:52,570 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:52,570 [9] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:52,570 [9] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:52,571 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:52,633 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-17 20:47:52,634 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:13 Evt:None Entity:(13:pos:(4880,4000,820),dir:(98,18,0),spd:-300
+2023-02-17 20:47:52,635 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:52,635 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:52,635 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:52,635 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:52,856 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:47:52,856 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(5450,3987,820),dir:(98,18,0),spd:0
+2023-02-17 20:47:52,857 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:52,857 [11] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:52,857 [11] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:52,858 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:52,858 [11] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:52,859 [11] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:52,859 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:52,883 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:47:52,883 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:13 Evt:Idle Entity:(13:pos:(4790,3985,820),dir:(98,18,0),spd:0
+2023-02-17 20:47:52,884 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:52,884 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:52,884 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:52,885 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:57,077 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:47:57,079 [5] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:47:57,079 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:57,079 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:57,079 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:58,887 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:47:58,888 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5450,3987,820),dir:(98,18,0),spd:300
+2023-02-17 20:47:58,889 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:58,889 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:58,889 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:58,889 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:58,890 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:58,920 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:47:58,920 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:13 Evt:MoveFwd Entity:(13:pos:(4790,3985,820),dir:(98,18,0),spd:300
+2023-02-17 20:47:58,921 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:58,921 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:58,921 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:58,922 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:59,281 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:47:59,281 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5552,4004,820),dir:(94,35,0),spd:300
+2023-02-17 20:47:59,282 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:59,283 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:59,283 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:59,284 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:59,285 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:59,285 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:59,285 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:59,301 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:47:59,301 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:13 Evt:None Entity:(13:pos:(4904,4004,820),dir:(94,35,0),spd:300
+2023-02-17 20:47:59,301 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:59,302 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:59,302 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:59,302 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:59,558 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:47:59,559 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(5630,4030,820),dir:(94,35,0),spd:0
+2023-02-17 20:47:59,560 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:59,560 [10] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:47:59,560 [10] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:47:59,561 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:59,561 [10] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:47:59,561 [10] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:47:59,561 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:47:59,590 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:47:59,591 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:13 Evt:Idle Entity:(13:pos:(4994,4034,820),dir:(94,35,0),spd:0
+2023-02-17 20:47:59,593 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:47:59,593 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:47:59,593 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:47:59,593 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638041
+2023-02-17 20:48:06,151 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:48:06,152 [12] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:2 FromName:312 ToId:1 ToName:123
+2023-02-17 20:48:06,152 [12] [INFO ] [GameServer] ：ForwardTeamInviteRequest: FromId:2 FromName:312 ToId:1 ToName:123
+2023-02-17 20:48:06,153 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:06,153 [12] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:48:06,153 [12] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:48:07,371 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2023-02-17 20:48:07,376 [5] [INFO ] [GameServer] ：Recv_FriendAddResponse: character:1 Result:Success FromId:2 ToId:1
+2023-02-17 20:48:07,379 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:07,380 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:48:07,382 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:48:07,395 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638041:1676638087
+2023-02-17 20:48:07,396 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:07,411 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:48:07,413 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:48:07,414 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 0:1676638087
+2023-02-17 20:48:24,653 [17] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-17 20:48:24,659 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-17 20:48:24,675 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:48:24,683 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:24,694 [17] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:24,695 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:48:24,711 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:1:123
+2023-02-17 20:48:24,726 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:24,728 [17] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:48:24,730 [17] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status0
+2023-02-17 20:48:24,734 [17] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638087:1676638087
+2023-02-17 20:48:24,743 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:48:34,467 [17] [WARN ] [GameServer] ：Client[127.0.0.1:59293]] Connected
+2023-02-17 20:48:34,541 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:48:34,542 [5] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-02-17 20:48:36,140 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:48:36,140 [6] [INFO ] [GameServer] ：Recv_GameEnter: characterID:2 Name:312 Map:1
+2023-02-17 20:48:36,140 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status0
+2023-02-17 20:48:36,141 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2023-02-17 20:48:36,141 [6] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:48:36,142 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:36,142 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:36,142 [6] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:48:36,142 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:36,142 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638087:1676638087
+2023-02-17 20:48:36,143 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:37,193 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:48:37,194 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:14 Evt:MoveFwd Entity:(14:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:48:37,194 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:37,194 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:37,195 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:37,195 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638087:1676638087
+2023-02-17 20:48:37,219 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:48:37,219 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:12 Evt:MoveFwd Entity:(12:pos:(5040,4024,820),dir:(83,55,0),spd:300
+2023-02-17 20:48:37,220 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:37,220 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:37,220 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:37,663 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2023-02-17 20:48:37,664 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:14 Evt:None Entity:(14:pos:(5000,4000,804),dir:(100,0,0),spd:300
+2023-02-17 20:48:37,664 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:37,665 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:37,665 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:37,665 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638087:1676638087
+2023-02-17 20:48:37,992 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:48:37,993 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:14 Evt:Idle Entity:(14:pos:(5228,4000,820),dir:(100,0,0),spd:0
+2023-02-17 20:48:37,993 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:37,994 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:37,994 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:37,994 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638087:1676638087
+2023-02-17 20:48:38,009 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:48:38,009 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:12 Evt:Idle Entity:(12:pos:(5215,4129,820),dir:(83,55,0),spd:0
+2023-02-17 20:48:38,010 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:38,010 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:38,010 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:38,214 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2023-02-17 20:48:38,217 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:14 Evt:None Entity:(14:pos:(5000,4000,804),dir:(100,0,0),spd:0
+2023-02-17 20:48:38,217 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:38,218 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:38,219 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:38,219 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638087:1676638087
+2023-02-17 20:48:39,233 [21] [INFO ] [GameServer] ：CharacterLeave： characterID:2:312
+2023-02-17 20:48:39,236 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2023-02-17 20:48:39,237 [21] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:2:312
+2023-02-17 20:48:39,237 [21] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:39,237 [21] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:39,238 [21] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:2:312
+2023-02-17 20:48:39,238 [21] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:2:312
+2023-02-17 20:48:39,238 [21] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:39,239 [21] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638087:1676638087
+2023-02-17 20:48:39,239 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:48:40,831 [21] [INFO ] [GameServer] ：CharacterLeave： characterID:2:312
+2023-02-17 20:48:40,832 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2023-02-17 20:48:40,833 [21] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:2:312
+2023-02-17 20:48:40,833 [21] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:40,834 [21] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:40,834 [21] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:2:312
+2023-02-17 20:48:40,835 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:48:51,000 [21] [WARN ] [GameServer] ：Client[127.0.0.1:59329]] Connected
+2023-02-17 20:48:51,083 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:48:51,084 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-17 20:48:53,105 [21] [WARN ] [GameServer] ：Client[127.0.0.1:59338]] Connected
+2023-02-17 20:48:53,210 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:48:53,211 [6] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-02-17 20:48:54,618 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:48:54,619 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-17 20:48:54,619 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status0
+2023-02-17 20:48:54,620 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-17 20:48:54,620 [5] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:1
+2023-02-17 20:48:54,620 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:54,620 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:54,622 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:54,962 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:48:54,962 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5630,4030,820),dir:(94,35,0),spd:300
+2023-02-17 20:48:54,963 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:54,982 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:48:54,983 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:15 Evt:MoveFwd Entity:(15:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:48:54,984 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:54,984 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:55,423 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:48:55,423 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5654,4039,820),dir:(94,35,0),spd:300
+2023-02-17 20:48:55,424 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:55,664 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:48:55,665 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(5714,4059,820),dir:(94,35,0),spd:0
+2023-02-17 20:48:55,665 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:55,685 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:48:55,685 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:15 Evt:Idle Entity:(15:pos:(5204,4000,820),dir:(100,0,0),spd:0
+2023-02-17 20:48:55,686 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:55,686 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:57,396 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:48:57,397 [12] [INFO ] [GameServer] ：Recv_GameEnter: characterID:2 Name:312 Map:1
+2023-02-17 20:48:57,397 [12] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:48:57,397 [12] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2023-02-17 20:48:57,397 [12] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:48:57,398 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:57,398 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:48:57,398 [12] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:48:57,399 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:48:57,399 [12] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:48:57,399 [12] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:48:57,400 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:48:57,400 [12] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:48:57,400 [12] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:49:02,180 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:49:02,180 [6] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:2 FromName:312 ToId:1 ToName:123
+2023-02-17 20:49:02,181 [6] [INFO ] [GameServer] ：ForwardTeamInviteRequest: FromId:2 FromName:312 ToId:1 ToName:123
+2023-02-17 20:49:02,181 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:49:02,181 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:49:02,182 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:49:03,399 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2023-02-17 20:49:03,407 [5] [INFO ] [GameServer] ：Recv_FriendAddResponse: character:1 Result:Success FromId:2 ToId:1
+2023-02-17 20:49:03,415 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:49:03,418 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:49:03,458 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:49:03,468 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 0:1676638143
+2023-02-17 20:49:03,477 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:49:03,485 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:49:03,490 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:49:03,509 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 0:1676638143
+2023-02-17 20:49:44,007 [22] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-17 20:49:44,008 [22] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-17 20:49:44,008 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:49:44,009 [22] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:49:44,009 [22] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:49:44,010 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:1:123
+2023-02-17 20:49:44,011 [22] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:49:44,013 [22] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:49:44,013 [22] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status0
+2023-02-17 20:49:44,013 [22] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638143:1676638143
+2023-02-17 20:49:44,014 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:49:44,014 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:50:24,378 [22] [INFO ] [GameServer] ：CharacterLeave： characterID:2:312
+2023-02-17 20:50:24,379 [22] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2023-02-17 20:50:24,379 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:2:312
+2023-02-17 20:50:24,380 [22] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:50:24,380 [22] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:50:24,380 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:2:312
+2023-02-17 20:50:24,381 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:50:49,050 [15] [WARN ] [GameServer] ：Client[127.0.0.1:59535]] Connected
+2023-02-17 20:50:49,155 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:50:49,158 [5] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-02-17 20:50:50,745 [15] [WARN ] [GameServer] ：Client[127.0.0.1:59540]] Connected
+2023-02-17 20:50:50,834 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:50:50,835 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-17 20:50:52,641 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:50:52,642 [6] [INFO ] [GameServer] ：Recv_GameEnter: characterID:2 Name:312 Map:1
+2023-02-17 20:50:52,642 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status0
+2023-02-17 20:50:52,643 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2023-02-17 20:50:52,643 [6] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:50:52,643 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:50:52,643 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:50:52,644 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:50:54,361 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:50:54,365 [7] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-17 20:50:54,395 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:50:54,408 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-17 20:50:54,410 [7] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:1
+2023-02-17 20:50:54,411 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:50:54,411 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:50:54,411 [7] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:1
+2023-02-17 20:50:54,412 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:50:54,412 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:50:54,413 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:50:54,413 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:50:54,414 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:50:54,415 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:50:54,907 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2023-02-17 20:50:54,909 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:18 Evt:None Entity:(18:pos:(5000,4000,925),dir:(100,0,0),spd:0
+2023-02-17 20:50:54,910 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:50:54,911 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:50:54,911 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:50:54,911 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:50:54,912 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:50:56,524 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2023-02-17 20:50:56,525 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:18 Evt:None Entity:(18:pos:(5000,4000,821),dir:(100,0,0),spd:0
+2023-02-17 20:50:56,526 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:50:56,526 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:50:56,527 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:50:58,841 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:50:58,842 [10] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:50:58,842 [10] [INFO ] [GameServer] ：ForwardTeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:50:58,843 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:00,060 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2023-02-17 20:51:00,078 [11] [INFO ] [GameServer] ：Recv_FriendAddResponse: character:2 Result:Success FromId:1 ToId:2
+2023-02-17 20:51:00,081 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:00,099 [11] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:51:00,106 [11] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:51:00,137 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 0:1676638260
+2023-02-17 20:51:00,158 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:00,163 [11] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:51:00,166 [11] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:51:00,172 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 0:1676638260
+2023-02-17 20:51:09,191 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:51:09,192 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:MoveFwd Entity:(17:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:51:09,192 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:09,193 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:09,193 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:09,194 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:51:09,194 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:51:09,194 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:09,973 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:51:09,974 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:Idle Entity:(17:pos:(5234,4000,820),dir:(100,0,0),spd:0
+2023-02-17 20:51:09,974 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:09,975 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:09,975 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:09,975 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,040 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:51:10,041 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5234,4000,820),dir:(98,-18,0),spd:0
+2023-02-17 20:51:10,041 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,042 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,042 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,042 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,175 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:51:10,176 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5234,4000,820),dir:(93,-37,0),spd:0
+2023-02-17 20:51:10,176 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,176 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,177 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,178 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,273 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:51:10,274 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5234,4000,820),dir:(85,-53,0),spd:0
+2023-02-17 20:51:10,274 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,275 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,275 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,275 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,390 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:51:10,393 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5234,4000,820),dir:(72,-69,0),spd:0
+2023-02-17 20:51:10,393 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,394 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,394 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,395 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,423 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2023-02-17 20:51:10,424 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:MoveFwd Entity:(17:pos:(5234,4000,820),dir:(72,-69,0),spd:300
+2023-02-17 20:51:10,425 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,425 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,426 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,426 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,505 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-17 20:51:10,507 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5254,3980,820),dir:(58,-81,0),spd:300
+2023-02-17 20:51:10,507 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,508 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,508 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,508 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,706 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-17 20:51:10,708 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5284,3930,820),dir:(43,-90,0),spd:300
+2023-02-17 20:51:10,708 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,708 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,709 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,709 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,839 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-17 20:51:10,842 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5305,3895,820),dir:(25,-97,0),spd:300
+2023-02-17 20:51:10,842 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,843 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,844 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,844 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:10,991 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-17 20:51:10,992 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5319,3853,820),dir:(6,-100,0),spd:300
+2023-02-17 20:51:10,992 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,993 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:10,993 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:10,994 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:11,124 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:11,126 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5319,3811,820),dir:(-12,-99,0),spd:300
+2023-02-17 20:51:11,127 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,127 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:11,128 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,128 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:11,240 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:11,240 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5313,3775,820),dir:(-30,-96,0),spd:300
+2023-02-17 20:51:11,241 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,241 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:11,241 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,242 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:11,425 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:11,426 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5295,3721,820),dir:(-48,-88,0),spd:300
+2023-02-17 20:51:11,426 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,427 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:11,427 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,428 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:11,577 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:11,579 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5274,3686,820),dir:(-63,-78,0),spd:300
+2023-02-17 20:51:11,581 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,581 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:11,582 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,582 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:11,876 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2023-02-17 20:51:11,877 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:Idle Entity:(17:pos:(5214,3611,820),dir:(-63,-78,0),spd:0
+2023-02-17 20:51:11,878 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,878 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:11,878 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:11,879 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:18,114 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:51:18,115 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5714,4059,820),dir:(99,16,0),spd:0
+2023-02-17 20:51:18,116 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:18,116 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:51:18,116 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:51:18,117 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638260:1676638260
+2023-02-17 20:51:18,117 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:18,117 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:51:18,118 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:51:18,118 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:18,138 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:51:18,140 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:18 Evt:None Entity:(18:pos:(5000,4000,821),dir:(98,-20,0),spd:0
+2023-02-17 20:51:18,140 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:18,141 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:18,141 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:18,141 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:51:18,142 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:51:18,142 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638260:1676638260
+2023-02-17 20:51:18,222 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:51:18,224 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5714,4059,820),dir:(100,-2,0),spd:0
+2023-02-17 20:51:18,225 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:18,226 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638260:1676638260
+2023-02-17 20:51:18,226 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:18,226 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:51:18,226 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:51:18,227 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:18,256 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:51:18,257 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:18 Evt:None Entity:(18:pos:(5000,4000,821),dir:(93,-37,0),spd:0
+2023-02-17 20:51:18,257 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:18,257 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:18,259 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:18,259 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:51:18,260 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:51:18,260 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638260:1676638260
+2023-02-17 20:51:18,972 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:51:18,974 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5714,4059,820),dir:(98,18,0),spd:0
+2023-02-17 20:51:18,975 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:18,975 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638260:1676638260
+2023-02-17 20:51:18,975 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:18,975 [9] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:51:18,976 [9] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:51:18,976 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:19,005 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:51:19,007 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:18 Evt:None Entity:(18:pos:(5000,4000,821),dir:(99,-17,0),spd:0
+2023-02-17 20:51:19,007 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:19,008 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:19,008 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:19,008 [10] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:51:19,009 [10] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:51:19,009 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638260:1676638260
+2023-02-17 20:51:20,325 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2023-02-17 20:51:20,334 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5214,3611,820),dir:(-47,-88,0),spd:0
+2023-02-17 20:51:20,408 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:20,445 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:20,457 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:20,496 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:51:20,515 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:51:20,549 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:20,562 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2023-02-17 20:51:20,644 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:MoveFwd Entity:(17:pos:(5214,3611,820),dir:(-47,-88,0),spd:300
+2023-02-17 20:51:20,707 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:20,733 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:20,750 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:20,765 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(5190,3571,820),dir:(-63,-78,0),spd:300
+2023-02-17 20:51:20,811 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:20,868 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:20,932 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:20,979 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:20,994 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:20,994 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:21,774 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:21,775 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4978,3306,820),dir:(-75,-66,0),spd:300
+2023-02-17 20:51:21,775 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:21,776 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:21,776 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:21,776 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:21,906 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:21,909 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4950,3278,820),dir:(-87,-49,0),spd:300
+2023-02-17 20:51:21,909 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:21,910 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:21,910 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:21,910 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:22,041 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:22,041 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4915,3257,820),dir:(-95,-32,0),spd:300
+2023-02-17 20:51:22,042 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:22,042 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:22,043 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:22,043 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:23,105 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:23,107 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4597,3151,820),dir:(-87,-50,0),spd:300
+2023-02-17 20:51:23,110 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:23,110 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:23,111 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:23,111 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:23,208 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2023-02-17 20:51:23,209 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:Idle Entity:(17:pos:(4572,3136,820),dir:(-87,-50,0),spd:0
+2023-02-17 20:51:23,209 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:23,209 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:23,210 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:23,210 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:23,241 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2023-02-17 20:51:23,241 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4572,3136,820),dir:(-75,-66,0),spd:0
+2023-02-17 20:51:23,242 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:23,242 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:23,243 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:23,243 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638260:1676638260
+2023-02-17 20:51:26,847 [27] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-17 20:51:26,847 [27] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-17 20:51:26,848 [27] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:51:26,848 [27] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:26,848 [27] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:26,849 [27] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:1:123
+2023-02-17 20:51:26,849 [27] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:51:26,850 [27] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:51:26,851 [27] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status0
+2023-02-17 20:51:26,851 [27] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638260:1676638260
+2023-02-17 20:51:26,851 [27] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:51:26,852 [27] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:51:29,373 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2023-02-17 20:51:29,373 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4572,3136,820),dir:(-61,-79,0),spd:0
+2023-02-17 20:51:29,374 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:29,374 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:29,422 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2023-02-17 20:51:29,423 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:MoveFwd Entity:(17:pos:(4572,3136,820),dir:(-61,-79,0),spd:300
+2023-02-17 20:51:29,424 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:29,424 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:30,022 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:30,022 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4550,3023,803),dir:(-61,-79,0),spd:300
+2023-02-17 20:51:30,023 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:30,024 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:30,738 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2023-02-17 20:51:30,739 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4402,2838,803),dir:(-74,-67,0),spd:300
+2023-02-17 20:51:30,739 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:30,740 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:30,822 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2023-02-17 20:51:30,823 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:Idle Entity:(17:pos:(4386,2822,803),dir:(-74,-67,0),spd:0
+2023-02-17 20:51:30,826 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:30,826 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:51:30,890 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2023-02-17 20:51:30,891 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:17 Evt:None Entity:(17:pos:(4386,2822,803),dir:(-85,-53,0),spd:0
+2023-02-17 20:51:30,892 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:51:30,892 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:52:16,829 [27] [INFO ] [GameServer] ：CharacterLeave： characterID:2:312
+2023-02-17 20:52:16,829 [27] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2023-02-17 20:52:16,829 [27] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:2:312
+2023-02-17 20:52:16,830 [27] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:16,830 [27] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:52:16,830 [27] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:2:312
+2023-02-17 20:52:16,831 [27] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:52:43,539 [23] [WARN ] [GameServer] ：Client[127.0.0.1:59717]] Connected
+2023-02-17 20:52:43,627 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:52:43,627 [5] [INFO ] [GameServer] ：Recv_Login: User:2 Pass:2 
+2023-02-17 20:52:46,673 [23] [WARN ] [GameServer] ：Client[127.0.0.1:59727]] Connected
+2023-02-17 20:52:46,767 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2023-02-17 20:52:46,769 [5] [INFO ] [GameServer] ：Recv_Login: User:1 Pass:1 
+2023-02-17 20:52:47,951 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:52:47,952 [5] [INFO ] [GameServer] ：Recv_GameEnter: characterID:1 Name:123 Map:1
+2023-02-17 20:52:47,952 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status0
+2023-02-17 20:52:47,956 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2023-02-17 20:52:47,956 [5] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:1
+2023-02-17 20:52:47,956 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:47,956 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:52:47,957 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:48,885 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:52:48,886 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5714,4059,820),dir:(98,18,0),spd:300
+2023-02-17 20:52:48,886 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:48,919 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:52:48,919 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:19 Evt:MoveFwd Entity:(19:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:52:48,920 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:48,920 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:52:49,067 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:52:49,070 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5654,4059,820),dir:(98,18,0),spd:300
+2023-02-17 20:52:49,070 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:49,451 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:52:49,452 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5654,4059,820),dir:(98,18,0),spd:300
+2023-02-17 20:52:49,453 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:49,530 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:52:49,538 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:Idle Entity:(1:pos:(5666,4061,820),dir:(98,18,0),spd:0
+2023-02-17 20:52:49,557 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:52:49,580 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:49,589 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:19 Evt:Idle Entity:(19:pos:(5192,4000,820),dir:(100,0,0),spd:0
+2023-02-17 20:52:49,616 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:49,647 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:52:50,136 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-02-17 20:52:50,139 [7] [INFO ] [GameServer] ：Recv_GameEnter: characterID:2 Name:312 Map:1
+2023-02-17 20:52:50,139 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:52:50,140 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2023-02-17 20:52:50,140 [7] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:52:50,141 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:50,141 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:52:50,142 [7] [INFO ] [GameServer] ：SendCharacterEnterMap: Map:1 characterId:2
+2023-02-17 20:52:50,142 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:50,142 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:52:50,143 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:52:50,144 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:52:50,145 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:52:50,145 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:52:55,918 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2023-02-17 20:52:55,919 [5] [INFO ] [GameServer] ：Recv_TeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:52:55,920 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequest: FromId:1 FromName:123 ToId:2 ToName:312
+2023-02-17 20:52:55,923 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:52:57,264 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2023-02-17 20:52:57,273 [6] [INFO ] [GameServer] ：Recv_FriendAddResponse: character:2 Result:Success FromId:1 ToId:2
+2023-02-17 20:52:57,277 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:52:57,298 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:52:57,320 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:52:57,350 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 0:1676638377
+2023-02-17 20:52:57,353 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:52:57,369 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:52:57,372 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:52:57,374 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 0:1676638377
+2023-02-17 20:53:04,417 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2023-02-17 20:53:04,419 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:MoveFwd Entity:(20:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2023-02-17 20:53:04,419 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:04,420 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:04,421 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:04,421 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:53:04,422 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:53:04,423 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:05,033 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-17 20:53:05,034 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(5186,4000,820),dir:(98,-18,0),spd:300
+2023-02-17 20:53:05,035 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,035 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:05,036 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,036 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:05,117 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-17 20:53:05,119 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Idle Entity:(20:pos:(5210,3996,820),dir:(98,-18,0),spd:0
+2023-02-17 20:53:05,120 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,120 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:05,120 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,121 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:05,133 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2023-02-17 20:53:05,134 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:19 Evt:None Entity:(19:pos:(5294,4000,806),dir:(100,0,0),spd:0
+2023-02-17 20:53:05,135 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,135 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:05,135 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:05,136 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:53:05,136 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:53:05,136 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:05,153 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:53:05,154 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(5104,3999,804),dir:(98,-18,0),spd:0
+2023-02-17 20:53:05,155 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,155 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:05,156 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,156 [9] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:53:05,157 [9] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:53:05,158 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:05,184 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:53:05,185 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(5104,3999,804),dir:(93,-38,0),spd:0
+2023-02-17 20:53:05,186 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,186 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:05,187 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,187 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:05,285 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2023-02-17 20:53:05,285 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(5104,3999,804),dir:(84,-54,0),spd:0
+2023-02-17 20:53:05,285 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,285 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:05,286 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,286 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:05,868 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2023-02-17 20:53:05,868 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:MoveFwd Entity:(20:pos:(5104,3999,804),dir:(84,-54,0),spd:300
+2023-02-17 20:53:05,869 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,870 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:05,870 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:05,871 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:05,988 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-17 20:53:06,000 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Idle Entity:(20:pos:(5134,3981,804),dir:(84,-54,0),spd:0
+2023-02-17 20:53:06,009 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:06,009 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:06,010 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:06,052 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:07,485 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,486 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5666,4061,820),dir:(93,36,0),spd:0
+2023-02-17 20:53:07,486 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,487 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:07,487 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,487 [6] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:53:07,488 [6] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:53:07,488 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:07,516 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,518 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:19 Evt:None Entity:(19:pos:(5294,4000,806),dir:(98,19,0),spd:0
+2023-02-17 20:53:07,518 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,519 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:07,519 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,519 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:07,601 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,602 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5666,4061,820),dir:(84,54,0),spd:0
+2023-02-17 20:53:07,603 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,603 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:53:07,603 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:53:07,604 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:07,604 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,604 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:53:07,605 [8] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:53:07,605 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:07,638 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,640 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:19 Evt:None Entity:(19:pos:(5294,4000,806),dir:(93,38,0),spd:0
+2023-02-17 20:53:07,641 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,641 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:07,642 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,642 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:07,734 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,737 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:19 Evt:None Entity:(19:pos:(5294,4000,806),dir:(85,53,0),spd:0
+2023-02-17 20:53:07,738 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,738 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,738 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:07,739 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,739 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:07,762 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5666,4061,820),dir:(71,70,0),spd:0
+2023-02-17 20:53:07,765 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,765 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:53:07,766 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:53:07,766 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:07,767 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,767 [5] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:53:07,767 [5] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:53:07,768 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:07,803 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,803 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:19 Evt:None Entity:(19:pos:(5294,4000,806),dir:(74,67,0),spd:0
+2023-02-17 20:53:07,804 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,805 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:07,805 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,805 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:07,836 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,837 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5666,4061,820),dir:(56,83,0),spd:0
+2023-02-17 20:53:07,837 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,838 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:53:07,838 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:53:07,838 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:07,839 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,839 [7] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:53:07,839 [7] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:53:07,840 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:07,937 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:07,937 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:19 Evt:None Entity:(19:pos:(5294,4000,806),dir:(61,79,0),spd:0
+2023-02-17 20:53:07,937 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:07,939 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:07,939 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:07,939 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:08,034 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:08,037 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:1:123 Entity.Id:1 Evt:None Entity:(1:pos:(5666,4061,820),dir:(40,92,0),spd:0
+2023-02-17 20:53:08,038 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:08,038 [9] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1 Name123
+2023-02-17 20:53:08,038 [9] [INFO ] [GameServer] ：GetFriendInfo: OwnerId1 Name:123 Status1
+2023-02-17 20:53:08,038 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676638377:1676638377
+2023-02-17 20:53:08,038 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:08,039 [9] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:53:08,039 [9] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status1
+2023-02-17 20:53:08,039 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:09,943 [29] [INFO ] [GameServer] ：CharacterLeave： characterID:1:123
+2023-02-17 20:53:09,943 [29] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2023-02-17 20:53:09,944 [29] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:53:09,944 [29] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:09,944 [29] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:09,945 [29] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:1:123
+2023-02-17 20:53:09,945 [29] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:1:123
+2023-02-17 20:53:09,945 [29] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:312
+2023-02-17 20:53:09,945 [29] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2 Name312
+2023-02-17 20:53:09,946 [29] [INFO ] [GameServer] ：GetFriendInfo: OwnerId2 Name:312 Status0
+2023-02-17 20:53:09,946 [29] [INFO ] [GameServer] ：PostProcess > Team: characterID:2:312 1676638377:1676638377
+2023-02-17 20:53:09,946 [29] [WARN ] [GameServer] ：Client[] Disconnected
+2023-02-17 20:53:11,283 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2023-02-17 20:53:11,284 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:MoveFwd Entity:(20:pos:(5134,3981,804),dir:(84,-54,0),spd:300
+2023-02-17 20:53:11,285 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:11,285 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:11,736 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-17 20:53:11,742 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(5249,3912,804),dir:(73,-68,0),spd:300
+2023-02-17 20:53:11,743 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:11,743 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:11,949 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2023-02-17 20:53:11,951 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(5293,3868,804),dir:(60,-80,0),spd:300
+2023-02-17 20:53:11,951 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:11,951 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:12,285 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-17 20:53:12,285 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Idle Entity:(20:pos:(5357,3788,804),dir:(60,-80,0),spd:0
+2023-02-17 20:53:12,286 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:12,286 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:13,950 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2023-02-17 20:53:13,951 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:MoveBack Entity:(20:pos:(5357,3788,804),dir:(60,-80,0),spd:-300
+2023-02-17 20:53:13,951 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:13,951 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:16,316 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2023-02-17 20:53:16,317 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(4885,4378,804),dir:(74,-67,0),spd:-300
+2023-02-17 20:53:16,318 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:16,319 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:16,433 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2023-02-17 20:53:16,434 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(4861,4402,804),dir:(86,-51,0),spd:-300
+2023-02-17 20:53:16,434 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:16,434 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:16,549 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2023-02-17 20:53:16,550 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(4831,4420,804),dir:(95,-33,0),spd:-300
+2023-02-17 20:53:16,550 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:16,550 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:16,716 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2023-02-17 20:53:16,717 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(4859,4370,804),dir:(99,-15,0),spd:-300
+2023-02-17 20:53:16,718 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:16,718 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:16,750 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2023-02-17 20:53:16,750 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(4859,4370,804),dir:(99,-15,0),spd:-300
+2023-02-17 20:53:16,751 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:16,751 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:16,849 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2023-02-17 20:53:16,849 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Jump Entity:(20:pos:(4817,4377,804),dir:(99,-15,0),spd:-300
+2023-02-17 20:53:16,850 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:16,850 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:17,234 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2023-02-17 20:53:17,234 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Idle Entity:(20:pos:(4703,4396,804),dir:(99,-15,0),spd:0
+2023-02-17 20:53:17,235 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:17,235 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:17,316 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:17,317 [9] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(4703,4396,804),dir:(100,3,0),spd:0
+2023-02-17 20:53:17,317 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:17,318 [9] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:17,516 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2023-02-17 20:53:17,517 [10] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:None Entity:(20:pos:(4703,4396,804),dir:(98,21,0),spd:0
+2023-02-17 20:53:17,517 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:17,518 [10] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:17,949 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:53:17,950 [11] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:MoveFwd Entity:(20:pos:(4703,4396,804),dir:(98,21,0),spd:300
+2023-02-17 20:53:17,952 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:17,952 [11] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:18,682 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:53:18,683 [12] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Idle Entity:(20:pos:(4919,4432,804),dir:(98,21,0),spd:0
+2023-02-17 20:53:18,687 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:18,687 [12] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:18,786 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:53:18,786 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Jump Entity:(20:pos:(4919,4432,804),dir:(98,21,0),spd:0
+2023-02-17 20:53:18,787 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:18,787 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:19,082 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2023-02-17 20:53:19,083 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:MoveBack Entity:(20:pos:(4919,4432,804),dir:(98,21,0),spd:-300
+2023-02-17 20:53:19,084 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:19,084 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:19,599 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:53:19,599 [7] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Idle Entity:(20:pos:(4763,4406,804),dir:(98,21,0),spd:0
+2023-02-17 20:53:19,600 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:19,601 [7] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:19,632 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2023-02-17 20:53:19,633 [8] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:MoveFwd Entity:(20:pos:(4763,4406,804),dir:(98,21,0),spd:300
+2023-02-17 20:53:19,634 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:19,634 [8] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:20,816 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:53:20,816 [5] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Idle Entity:(20:pos:(5123,4466,804),dir:(98,21,0),spd:0
+2023-02-17 20:53:20,817 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:20,818 [5] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:21,549 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2023-02-17 20:53:21,550 [6] [INFO ] [GameServer] ：Recv_MapEntitySync: characterID:2:312 Entity.Id:20 Evt:Jump Entity:(20:pos:(5123,4466,804),dir:(98,21,0),spd:0
+2023-02-17 20:53:21,551 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:21,551 [6] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:30,951 [29] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2023-02-17 20:53:30,953 [5] [INFO ] [GameServer] ：Recv_FriendAddResponse: characterId:2 TeamId:4
+2023-02-17 20:53:33,591 [29] [INFO ] [GameServer] ：CharacterLeave： characterID:2:312
+2023-02-17 20:53:33,594 [29] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2023-02-17 20:53:33,595 [29] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:123 : Map:1 Character:2:312
+2023-02-17 20:53:33,596 [29] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:123
+2023-02-17 20:53:33,597 [29] [INFO ] [GameServer] ：PostProcess > Team: characterID:1:123 1676637898:1676637898
+2023-02-17 20:53:33,600 [29] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:312 : Map:1 Character:2:312
+2023-02-17 20:53:33,600 [29] [WARN ] [GameServer] ：Client[] Disconnected

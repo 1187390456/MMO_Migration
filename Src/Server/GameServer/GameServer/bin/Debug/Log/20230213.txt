@@ -1,0 +1,111 @@
+
+2023-02-13 20:29:20,411 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:29:21,927 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:29:39,312 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:29:40,527 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:29:40,935 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-13 20:29:40,938 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-13 20:29:40,939 [1] [ERROR] [GameServer] ：SpawnRule1 SpawnPoint1 not existed
+2023-02-13 20:29:40,939 [1] [ERROR] [GameServer] ：SpawnRule2 SpawnPoint2 not existed
+2023-02-13 20:29:40,939 [1] [ERROR] [GameServer] ：SpawnRule3 SpawnPoint3 not existed
+2023-02-13 20:29:40,940 [1] [ERROR] [GameServer] ：SpawnRule4 SpawnPoint4 not existed
+2023-02-13 20:29:40,940 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-13 20:29:40,940 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-13 20:29:40,942 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-13 20:29:41,015 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:29:41,017 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:29:41,017 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:29:41,017 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:29:41,018 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:29:41,018 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:29:41,982 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:29:42,982 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:29:43,017 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-13 20:31:12,735 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:31:13,978 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:31:49,567 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:31:50,884 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:32:02,988 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-13 20:32:04,191 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-13 20:32:04,657 [1] [ERROR] [GameServer] ：SpawnRule1 SpawnPoint1 not existed
+2023-02-13 20:32:04,658 [1] [ERROR] [GameServer] ：SpawnRule2 SpawnPoint2 not existed
+2023-02-13 20:32:04,659 [1] [ERROR] [GameServer] ：SpawnRule3 SpawnPoint3 not existed
+2023-02-13 20:32:04,659 [1] [ERROR] [GameServer] ：SpawnRule4 SpawnPoint4 not existed
+2023-02-13 20:32:04,659 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-13 20:32:04,991 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-13 20:32:04,995 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-13 20:32:05,050 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:05,050 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:05,051 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:05,051 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:05,051 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:05,052 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:06,028 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:07,033 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:07,041 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-13 20:32:37,690 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:32:38,911 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:32:39,228 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-13 20:32:39,231 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-13 20:32:39,232 [1] [ERROR] [GameServer] ：SpawnRule1 SpawnPoint1 not existed
+2023-02-13 20:32:39,232 [1] [ERROR] [GameServer] ：SpawnRule2 SpawnPoint2 not existed
+2023-02-13 20:32:39,232 [1] [ERROR] [GameServer] ：SpawnRule3 SpawnPoint3 not existed
+2023-02-13 20:32:39,232 [1] [ERROR] [GameServer] ：SpawnRule4 SpawnPoint4 not existed
+2023-02-13 20:32:39,232 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-13 20:32:39,232 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-13 20:32:39,234 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-13 20:32:39,323 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:39,323 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:39,324 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:39,324 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:39,324 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:39,324 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:40,274 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:41,273 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:32:41,293 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-13 20:37:28,473 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:37:29,903 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:37:30,150 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-13 20:37:30,153 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-13 20:37:30,154 [1] [ERROR] [GameServer] ：SpawnRule1 SpawnPoint1 not existed
+2023-02-13 20:37:30,154 [1] [ERROR] [GameServer] ：SpawnRule2 SpawnPoint2 not existed
+2023-02-13 20:37:30,155 [1] [ERROR] [GameServer] ：SpawnRule3 SpawnPoint3 not existed
+2023-02-13 20:37:30,155 [1] [ERROR] [GameServer] ：SpawnRule4 SpawnPoint4 not existed
+2023-02-13 20:37:30,155 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-13 20:37:30,155 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-13 20:37:30,158 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-13 20:37:30,229 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:30,239 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:30,239 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:30,239 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:30,239 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:30,240 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:31,196 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:32,196 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:32,209 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-13 20:37:51,630 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:37:52,931 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:37:53,215 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-13 20:37:53,218 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2023-02-13 20:37:53,219 [1] [ERROR] [GameServer] ：SpawnRule1 SpawnPoint1 not existed
+2023-02-13 20:37:53,219 [1] [ERROR] [GameServer] ：SpawnRule2 SpawnPoint2 not existed
+2023-02-13 20:37:53,219 [1] [ERROR] [GameServer] ：SpawnRule3 SpawnPoint3 not existed
+2023-02-13 20:37:53,219 [1] [ERROR] [GameServer] ：SpawnRule4 SpawnPoint4 not existed
+2023-02-13 20:37:53,219 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2023-02-13 20:37:53,219 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余辉
+2023-02-13 20:37:53,222 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-02-13 20:37:53,303 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:53,303 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:53,304 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:53,305 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:53,305 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:53,305 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:54,261 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:55,262 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-02-13 20:37:55,297 [1] [WARN ] [GameServer] ：NetService Started
+2023-02-13 20:38:10,212 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:38:11,330 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:39:04,498 [1] [INFO ] [GameServer] ：Game Server Init
+2023-02-13 20:39:05,759 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-02-13 20:39:30,774 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2023-02-13 20:40:53,713 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
