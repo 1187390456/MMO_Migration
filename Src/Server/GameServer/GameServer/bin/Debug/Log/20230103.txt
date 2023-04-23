@@ -1,0 +1,152 @@
+
+2023-01-03 19:16:09,141 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-03 19:16:10,622 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-03 19:16:10,925 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:16:10,926 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:16:10,927 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:16:10,928 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:16:10,929 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:16:10,929 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:16:13,044 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:16:14,045 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:16:14,076 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-03 19:17:51,133 [4] [WARN ] [GameServer] ：Client[127.0.0.1:62308]] Connected
+2023-01-03 19:17:51,299 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2023-01-03 19:17:51,450 [7] [INFO ] [GameServer] ：OnFirstTestRequest:Hello world
+2023-01-03 19:18:11,664 [5] [WARN ] [GameServer] ：Client[127.0.0.1:62354]] Connected
+2023-01-03 19:18:11,667 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-03 19:18:11,669 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-03 19:18:11,672 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:123 Pass:123 
+2023-01-03 19:18:15,514 [7] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.Users' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:6767917c-01db-4936-a448-965d5456410c
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserSerevice.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\JSJ_MMORPG\SelfProject\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 31
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\JSJ_MMORPG\SelfProject\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-01-03 19:33:10,272 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-03 19:33:11,418 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-03 19:33:11,493 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:33:11,495 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:33:11,495 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:33:11,495 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:33:11,496 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:33:11,496 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:33:12,462 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:33:13,462 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:33:13,473 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-03 19:33:19,152 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59758]] Connected
+2023-01-03 19:33:19,260 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2023-01-03 19:33:19,404 [5] [INFO ] [GameServer] ：OnFirstTestRequest:Hello world
+2023-01-03 19:33:27,361 [14] [WARN ] [GameServer] ：Client[127.0.0.1:59776]] Connected
+2023-01-03 19:33:27,364 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-03 19:33:27,365 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-03 19:33:27,368 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:123 Pass:123 
+2023-01-03 19:33:30,786 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.Users' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:ed662595-0d50-4843-a5e9-a3f17f4bdab6
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserSerevice.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\JSJ_MMORPG\SelfProject\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 31
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\JSJ_MMORPG\SelfProject\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-01-03 19:55:51,887 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-03 19:55:53,192 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-01-03 19:55:53,311 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:55:53,311 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:55:53,311 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:55:53,314 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:55:53,314 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:55:53,315 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:55:54,736 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:55:55,736 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-01-03 19:55:55,806 [1] [WARN ] [GameServer] ：NetService Started
+2023-01-03 19:56:00,149 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57923]] Connected
+2023-01-03 19:56:00,271 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2023-01-03 19:56:00,485 [5] [INFO ] [GameServer] ：OnFirstTestRequest:Hello world
+2023-01-03 19:56:06,513 [14] [WARN ] [GameServer] ：Client[127.0.0.1:57935]] Connected
+2023-01-03 19:56:06,516 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-01-03 19:56:06,523 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2023-01-03 19:56:06,526 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:123 Pass:123 
+2023-01-03 19:56:09,178 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.MappingException: 
+Entities.msl(3,4) : 错误 3027: 没有为以下 EntitySet/AssociationSet 指定映射 - TCharItems。
+   在 System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   在 System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   在 System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   在 System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   在 System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   在 System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   在 System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   在 System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ProjectOp op, Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   在 System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   在 System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   在 System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory), 准备命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityProviderServices.CreateDbCommandDefinition(DbProviderManifest providerManifest, DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.CreateCommandDefinition(ObjectContext context, DbQueryCommandTree tree)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserSerevice.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\JSJ_MMORPG\SelfProject\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 31
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\JSJ_MMORPG\SelfProject\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-01-03 20:03:04,581 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-03 20:16:04,498 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-03 20:16:43,267 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-03 20:18:32,039 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-03 20:20:41,087 [1] [INFO ] [GameServer] ：Game Server Init
+2023-01-03 20:22:00,175 [1] [INFO ] [GameServer] ：Game Server Init

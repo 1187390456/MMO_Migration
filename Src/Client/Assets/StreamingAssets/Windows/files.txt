@@ -1,0 +1,8 @@
+ttf.assetbundle|491f687512849de3d6cecbc0d5b4f926
+ttf.assetbundle.manifest|2c02ada3e2f57a8dc82f44a1434b3e44
+TTFRecord.txt|781c505dfdf236a3d8734447ac2faf5f
+uis/uilogin.assetbundle|cc4f32ac9b7b7e10a9d7594a34c2c0e2
+uis/uilogin.assetbundle.manifest|896fbea4ed0d27572fc544cb21915650
+UIsRecord.txt|e641b9ba2c6b3ac539960e5443788c9e
+Windows|d9b8b004b3d17f397f48989ab4f519ac
+Windows.manifest|6d2a4b7cb635ed59df32ebb1ec4e1503

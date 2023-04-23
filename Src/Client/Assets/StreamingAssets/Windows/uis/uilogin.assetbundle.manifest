@@ -1,0 +1,267 @@
+ManifestFileVersion: 0
+CRC: 2714139251
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 36c72e2a057305965f39a35d4a7a649b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 20cc240b4d13247c4465ce8961f48bd7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 1365662081, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: 748733865, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: 1611212785, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: 1169467780, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: -778368646, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: 89067403, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: 1959383075, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: -930698080, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: 975103777, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: 81868572, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: -558567209, guid: 74ca7c2d5559e7c479627bd1ad9e82cf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 1365662081, guid: 9e9c48e08e7e2574bb58c741f97cede2, type: 3}
+- Class: 114
+  Script: {fileID: 46761255, guid: 9e9c48e08e7e2574bb58c741f97cede2, type: 3}
+- Class: 114
+  Script: {fileID: 1826352747, guid: 9e9c48e08e7e2574bb58c741f97cede2, type: 3}
+- Class: 114
+  Script: {fileID: 89067403, guid: 9e9c48e08e7e2574bb58c741f97cede2, type: 3}
+- Class: 114
+  Script: {fileID: 1674759545, guid: 9e9c48e08e7e2574bb58c741f97cede2, type: 3}
+- Class: 114
+  Script: {fileID: 277682271, guid: 9e9c48e08e7e2574bb58c741f97cede2, type: 3}
+- Class: 114
+  Script: {fileID: 975103777, guid: 9e9c48e08e7e2574bb58c741f97cede2, type: 3}
+- Class: 114
+  Script: {fileID: -558567209, guid: 9e9c48e08e7e2574bb58c741f97cede2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5ef941fb7f3a9b046a28f1b580df0918, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e85c0b50d27ae954399e240e17e151ee, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9c1b74f910281224a8cae6d8e4fc1f43, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3fc563677fd7da943973b36e0f08cb1f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 973c04a1a4a087547a7851f1b559853f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 646c0ade254f9094ba448192544bb57d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ccc6654882af7cb498ded6249b3425c1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6dca2442ee21dd249800ae91ba370c16, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: NirvanaRuntime
+  ClassName: Nirvana.AssetID
+- AssemblyName: NirvanaRuntime
+  ClassName: Nirvana.UINameTable/BindPair
+- AssemblyName: NirvanaRuntime
+  ClassName: "\_.\_"
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/EndEditEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/OnChangeEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/SubmitEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+Assets:
+- Assets/AssetBundles/UIs/UILogin/Image/game_tips.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/login_btn_02.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/progress_scene_bg.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_icon_3.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/line_normal_1.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_juexian_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/bg_img9_2.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/BackgroundSplashURL.controller
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/nopack/AbilityBG.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/label_new_server.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/label_04.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/wuji_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ball_green.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_wuji_normal.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_taiyuan_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_guying_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/progress_scene_light.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Splash.anim
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_desc_4.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/bg_head_mask.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_064.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/name_input_frame.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/SceneLoadingView.prefab
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/shenyin_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_061.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/line_selected_2.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_desc_2.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Hide.anim
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_desc_1.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/line_normal_2.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_wuji_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/line_title_line_3.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_juexian_normal.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/bg_top_title.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/tab_up.anim
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/ProfContent.controller
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/bg_title_1.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/name_input_cray_2.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_058.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_065.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/progress_scene_top.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/line_selected_1.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_icon_4.png
+- Assets/AssetBundles/UIs/UILogin/Animations/AniGameTips.anim
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/role_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/title_line.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/tab_normal.anim
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/btn_server_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/login_btn_01.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_gonggao.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/progress_scene.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/decorate_frame_top.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_arrow_back.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_taiyuan_normal.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/ServerGroupItem.prefab
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_067.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/RoleItem.prefab
+- Assets/AssetBundles/UIs/UILogin/RawImage/bg_login.jpg
+- Assets/AssetBundles/UIs/UILogin/RawImage/sceneloading_bg_1.jpg
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/role_plus.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/logo.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/down.anim
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_gonggao_name.png
+- Assets/AssetBundles/UIs/UILogin/Animations/GameTips.controller
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ball_blue.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/SelectSexAnimation.anim
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/SelectSex.controller
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/tab_down.anim
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_icon_2.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_icon_1.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/role_normal.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ball_gray.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/LoadingView.prefab
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading.prefab
+- Assets/AssetBundles/UIs/UILogin/Prefabs/DefaultBg.prefab
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/btn_create_role.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/ServerItem.prefab
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_068.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/guying_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_063.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/prof_desc_3.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/LoginView.prefab
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/name_input_cray.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/juexian_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Loading/Images/btn_medium_yellow.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_066.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/GameTips.prefab
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/xuanzefuwuqi.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/artword.txt
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/icon_guying_normal.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Animations/Image.controller
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ball_yellow.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ball_red.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/ability_bg.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/taiyuan_selected.png
+- Assets/AssetBundles/UIs/UILogin/Prefabs/Login/Images/btn_server.png
+Dependencies:
+- D:/JSJ_MMORPG/SelfProject/Src/Client/Assets/StreamingAssets/Windows/ttf.assetbundle
